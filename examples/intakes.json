@@ -1,0 +1,13 @@
+{
+  "schema": "intake/v1",
+  "asOf": "2026-09-16T00:00:00.000Z",
+  "items": [
+    {"id":"FEATURE-101","title":"Remove repeated case data entry","owner":"synthetic-owner","team":"alpha","priority":1,"dependencyIds":["ENABLE-001"],"deadlineDays":null,"evidence":[]},
+    {"id":"FEATURE-102","title":"Rebuild a workflow whose need has been disproved","owner":"synthetic-owner","team":"alpha","priority":2,"dependencyIds":[],"deadlineDays":null,"evidence":[]},
+    {"id":"FEATURE-103","title":"Claimed time saving without supporting estimate","owner":"synthetic-owner","team":"alpha","priority":3,"dependencyIds":[],"deadlineDays":null,"evidence":[]},
+    {"id":"FEATURE-104","title":"Large improvement beyond current team capacity","owner":"synthetic-owner","team":"alpha","priority":4,"dependencyIds":[],"deadlineDays":null,"evidence":[]},
+    {"id":"ENABLE-001","title":"Shared prerequisite mapping","owner":"synthetic-owner","team":"alpha","priority":10,"dependencyIds":[],"deadlineDays":null,"evidence":[]},
+    {"id":"FEATURE-105","title":"Thin benefit case challenged by downside scenario","owner":"synthetic-owner","team":"alpha","priority":5,"dependencyIds":[],"deadlineDays":null,"evidence":[]},
+    {"id":"FEATURE-106","title":"Contradictory eligibility evidence","owner":"synthetic-owner","team":"alpha","priority":6,"dependencyIds":[],"deadlineDays":null,"evidence":[]}
+  ]
+}
