@@ -1,0 +1,12 @@
+{
+  "schema": "decision-receipt/v1",
+  "engineVersion": "intake-core/0.1.0",
+  "runtime": "node/24.19.0/linux/x64",
+  "sourceTreeHash": "c56df9142436a3769e026fd65b867e0dbf8f8b2d92d3d1f0ac7e02b0d978afc1",
+  "asOf": "2026-09-16T00:00:00.000Z",
+  "inputHash": "da1052e0d248d9784c9302ae8087ad191aaae5d740cf1f2b5065743c6b0b55fc",
+  "policyHash": "07358c998aa61423fe9efae830cd8a2f809867b7e34342f7aff125971c5ae81f",
+  "evaluations": [],
+  "remainingCapacityDays": {"alpha": 10, "beta": 10},
+  "receiptHash": "237d053c37eaacaa7225c20d3df6b7b71a09c664b2a0680fd17c0ea210e6a28a"
+}
