@@ -2,12 +2,854 @@
   "schema": "intake/v1",
   "asOf": "2026-09-16T00:00:00.000Z",
   "items": [
-    {"id":"FEATURE-101","title":"Remove repeated case data entry","owner":"synthetic-owner","team":"alpha","priority":1,"dependencyIds":["ENABLE-001"],"deadlineDays":null,"evidence":[]},
-    {"id":"FEATURE-102","title":"Rebuild a workflow whose need has been disproved","owner":"synthetic-owner","team":"alpha","priority":2,"dependencyIds":[],"deadlineDays":null,"evidence":[]},
-    {"id":"FEATURE-103","title":"Claimed time saving without supporting estimate","owner":"synthetic-owner","team":"alpha","priority":3,"dependencyIds":[],"deadlineDays":null,"evidence":[]},
-    {"id":"FEATURE-104","title":"Large improvement beyond current team capacity","owner":"synthetic-owner","team":"alpha","priority":4,"dependencyIds":[],"deadlineDays":null,"evidence":[]},
-    {"id":"ENABLE-001","title":"Shared prerequisite mapping","owner":"synthetic-owner","team":"alpha","priority":10,"dependencyIds":[],"deadlineDays":null,"evidence":[]},
-    {"id":"FEATURE-105","title":"Thin benefit case challenged by downside scenario","owner":"synthetic-owner","team":"alpha","priority":5,"dependencyIds":[],"deadlineDays":null,"evidence":[]},
-    {"id":"FEATURE-106","title":"Contradictory eligibility evidence","owner":"synthetic-owner","team":"alpha","priority":6,"dependencyIds":[],"deadlineDays":null,"evidence":[]}
+    {
+      "id": "FEATURE-101",
+      "title": "Remove repeated case data entry",
+      "owner": "synthetic-owner",
+      "team": "alpha",
+      "priority": 1,
+      "dependencyIds": [
+        "ENABLE-001"
+      ],
+      "deadlineDays": null,
+      "evidence": [
+        {
+          "id": "FEATURE-101:permitted",
+          "subjectId": "FEATURE-101",
+          "field": "permitted",
+          "value": true,
+          "sourceRef": "synthetic://FEATURE-101/permitted",
+          "sourceHash": "93509d551f2304c8a205b64490343d72cd57dbe3ce19b2df776d9bb6055e1bc2",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-101:need",
+          "subjectId": "FEATURE-101",
+          "field": "need",
+          "value": true,
+          "sourceRef": "synthetic://FEATURE-101/need",
+          "sourceHash": "0e1e9e9a49f701da02401b693f9efddb0ca06f73518609ec51286163ae2f3714",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-101:benefitLow",
+          "subjectId": "FEATURE-101",
+          "field": "benefitLow",
+          "value": 1000,
+          "sourceRef": "synthetic://FEATURE-101/benefitLow",
+          "sourceHash": "0c0b645d6307e310d357c076ceca83b6b330784cf0531d83818b8ecb21b7226c",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-101:benefitHigh",
+          "subjectId": "FEATURE-101",
+          "field": "benefitHigh",
+          "value": 1400,
+          "sourceRef": "synthetic://FEATURE-101/benefitHigh",
+          "sourceHash": "176b229c9bd70759a976eb289782c13e5b87c9d97b3cca898c5d4e8f9fd1a8c7",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-101:costLow",
+          "subjectId": "FEATURE-101",
+          "field": "costLow",
+          "value": 100,
+          "sourceRef": "synthetic://FEATURE-101/costLow",
+          "sourceHash": "73b0b200415cf0ebf3fb92a213298c6e8f48fae7ad3ab8b3d471fbc96258cdd2",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-101:costHigh",
+          "subjectId": "FEATURE-101",
+          "field": "costHigh",
+          "value": 200,
+          "sourceRef": "synthetic://FEATURE-101/costHigh",
+          "sourceHash": "9837521c5db62eea7722fa3fb420fdfdbb307b6961413be83c14f4e8fad902ab",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-101:effortDays",
+          "subjectId": "FEATURE-101",
+          "field": "effortDays",
+          "value": 5,
+          "sourceRef": "synthetic://FEATURE-101/effortDays",
+          "sourceHash": "17f1a587261c2f95dac092b60ccf35d3246ebeca118df578d97884f9d3f3f660",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-101:deliveryDays",
+          "subjectId": "FEATURE-101",
+          "field": "deliveryDays",
+          "value": 5,
+          "sourceRef": "synthetic://FEATURE-101/deliveryDays",
+          "sourceHash": "67c80802834c6aaa53dc2e1d04af5b9feb7ce93c2db28ab5426243252b6f01c6",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-101:mechanism",
+          "subjectId": "FEATURE-101",
+          "field": "mechanism",
+          "value": "Remove repeated manual re-entry",
+          "sourceRef": "synthetic://FEATURE-101/mechanism",
+          "sourceHash": "eb7f1a725629aa2ceec08b83ecd92adc065d4ce372cbad459b325ccc0e776075",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-101:outcomeMetric",
+          "subjectId": "FEATURE-101",
+          "field": "outcomeMetric",
+          "value": "Minutes of re-entry per completed case",
+          "sourceRef": "synthetic://FEATURE-101/outcomeMetric",
+          "sourceHash": "15225f43e785d23a867da156937e3c8b1f9b709966c11c10e22cb5effa75b1a2",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "FEATURE-102",
+      "title": "Rebuild a workflow whose need has been disproved",
+      "owner": "synthetic-owner",
+      "team": "alpha",
+      "priority": 2,
+      "dependencyIds": [],
+      "deadlineDays": null,
+      "evidence": [
+        {
+          "id": "FEATURE-102:permitted",
+          "subjectId": "FEATURE-102",
+          "field": "permitted",
+          "value": true,
+          "sourceRef": "synthetic://FEATURE-102/permitted",
+          "sourceHash": "dec5170f0cfe6a4418eee233118df34a417f657ec7d4d41ba6298297b0742e8c",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-102:need",
+          "subjectId": "FEATURE-102",
+          "field": "need",
+          "value": false,
+          "sourceRef": "synthetic://FEATURE-102/need",
+          "sourceHash": "a9516d8f90317455b92ef37063dee66ee3658005f16d6042402d7aab44136037",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-102:benefitLow",
+          "subjectId": "FEATURE-102",
+          "field": "benefitLow",
+          "value": 1000,
+          "sourceRef": "synthetic://FEATURE-102/benefitLow",
+          "sourceHash": "a38fcbaa73298890af7b1ab0f1f8192266fa6bacf73b78055f5237dfc1f2dd66",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-102:benefitHigh",
+          "subjectId": "FEATURE-102",
+          "field": "benefitHigh",
+          "value": 1400,
+          "sourceRef": "synthetic://FEATURE-102/benefitHigh",
+          "sourceHash": "b6ab479e493f6695966e24d6140715e45ce4c00b2b5d3d8b75ea684d90eae369",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-102:costLow",
+          "subjectId": "FEATURE-102",
+          "field": "costLow",
+          "value": 100,
+          "sourceRef": "synthetic://FEATURE-102/costLow",
+          "sourceHash": "ba974ef9a395299a026f3bd440eea2e31c543414432866e7973497d5dd535d07",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-102:costHigh",
+          "subjectId": "FEATURE-102",
+          "field": "costHigh",
+          "value": 200,
+          "sourceRef": "synthetic://FEATURE-102/costHigh",
+          "sourceHash": "36a136de154f21c581541feec24e84f69d96dc21fdefc830f44669fbabed0dfc",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-102:effortDays",
+          "subjectId": "FEATURE-102",
+          "field": "effortDays",
+          "value": 5,
+          "sourceRef": "synthetic://FEATURE-102/effortDays",
+          "sourceHash": "f9cd4af0403b8babf32e632091840ac4cc65f5d16ffc3225b95cadbe9eaad451",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-102:deliveryDays",
+          "subjectId": "FEATURE-102",
+          "field": "deliveryDays",
+          "value": 5,
+          "sourceRef": "synthetic://FEATURE-102/deliveryDays",
+          "sourceHash": "4b69fba919b4ca175e1a512e221235b00f766b162632f153402cac21e057059c",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-102:mechanism",
+          "subjectId": "FEATURE-102",
+          "field": "mechanism",
+          "value": "Remove repeated manual re-entry",
+          "sourceRef": "synthetic://FEATURE-102/mechanism",
+          "sourceHash": "ad53ef553d96800e67e580385dffc7738d2c17e4db56440738dce12381178c6a",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-102:outcomeMetric",
+          "subjectId": "FEATURE-102",
+          "field": "outcomeMetric",
+          "value": "Minutes of re-entry per completed case",
+          "sourceRef": "synthetic://FEATURE-102/outcomeMetric",
+          "sourceHash": "3b8797c82259e45536cd3de779192d502effee1919d80afceefa746901c734bf",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "FEATURE-103",
+      "title": "Claimed time saving without supporting estimate",
+      "owner": "synthetic-owner",
+      "team": "alpha",
+      "priority": 3,
+      "dependencyIds": [],
+      "deadlineDays": null,
+      "evidence": [
+        {
+          "id": "FEATURE-103:permitted",
+          "subjectId": "FEATURE-103",
+          "field": "permitted",
+          "value": true,
+          "sourceRef": "synthetic://FEATURE-103/permitted",
+          "sourceHash": "5105b0d76dc56aa84f358b26bce9e1bf28983721e0200326de5c5945be57b24e",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-103:need",
+          "subjectId": "FEATURE-103",
+          "field": "need",
+          "value": true,
+          "sourceRef": "synthetic://FEATURE-103/need",
+          "sourceHash": "597b17026e262179272cb2dff958e45af67d4106e8cfaf9fea92094cb8379e40",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-103:benefitHigh",
+          "subjectId": "FEATURE-103",
+          "field": "benefitHigh",
+          "value": 1400,
+          "sourceRef": "synthetic://FEATURE-103/benefitHigh",
+          "sourceHash": "4e0501d0d0d29430ed7301b559bff706a32e4929146708664cc46a073b221034",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-103:costLow",
+          "subjectId": "FEATURE-103",
+          "field": "costLow",
+          "value": 100,
+          "sourceRef": "synthetic://FEATURE-103/costLow",
+          "sourceHash": "62950a0d780dea3eccd6be290201ee18910936f7573b20768a729964448cf8e6",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-103:costHigh",
+          "subjectId": "FEATURE-103",
+          "field": "costHigh",
+          "value": 200,
+          "sourceRef": "synthetic://FEATURE-103/costHigh",
+          "sourceHash": "6e37e9e0b03f958b34a59eb7895659f9a1c0b19572d4e89ac039db91b219d607",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-103:effortDays",
+          "subjectId": "FEATURE-103",
+          "field": "effortDays",
+          "value": 5,
+          "sourceRef": "synthetic://FEATURE-103/effortDays",
+          "sourceHash": "123f39c8f506490fee761fc6f3faff69f9c69b472816bc488e01d49d940a93d4",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-103:deliveryDays",
+          "subjectId": "FEATURE-103",
+          "field": "deliveryDays",
+          "value": 5,
+          "sourceRef": "synthetic://FEATURE-103/deliveryDays",
+          "sourceHash": "8db24a7d6a041419dd9ecf538db8da3a887e3d4e379672cfae86d6e26aa95d8e",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-103:mechanism",
+          "subjectId": "FEATURE-103",
+          "field": "mechanism",
+          "value": "Remove repeated manual re-entry",
+          "sourceRef": "synthetic://FEATURE-103/mechanism",
+          "sourceHash": "f5ee0eb09e7488d36b53bb83f61b5d2f42774b740287e4b5b394f25dc22cdf09",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-103:outcomeMetric",
+          "subjectId": "FEATURE-103",
+          "field": "outcomeMetric",
+          "value": "Minutes of re-entry per completed case",
+          "sourceRef": "synthetic://FEATURE-103/outcomeMetric",
+          "sourceHash": "0c31e4509e5f34adc32465c771b5e85edf99147a754df3196dbfa6b348c7a97e",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "FEATURE-104",
+      "title": "Large improvement beyond current team capacity",
+      "owner": "synthetic-owner",
+      "team": "alpha",
+      "priority": 4,
+      "dependencyIds": [],
+      "deadlineDays": null,
+      "evidence": [
+        {
+          "id": "FEATURE-104:permitted",
+          "subjectId": "FEATURE-104",
+          "field": "permitted",
+          "value": true,
+          "sourceRef": "synthetic://FEATURE-104/permitted",
+          "sourceHash": "40c7e0542653decfd65cda076c4f06b7378063c79e6e624950ed35d4f62acabf",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-104:need",
+          "subjectId": "FEATURE-104",
+          "field": "need",
+          "value": true,
+          "sourceRef": "synthetic://FEATURE-104/need",
+          "sourceHash": "193ba14593c4d5834b269b9a789157ce1fcdc51711421ae693d2a3875d617bbb",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-104:benefitLow",
+          "subjectId": "FEATURE-104",
+          "field": "benefitLow",
+          "value": 1000,
+          "sourceRef": "synthetic://FEATURE-104/benefitLow",
+          "sourceHash": "ce782b96243545ab446580006b3a1d4221f0053a44fb3834a46729d1efa0e13a",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-104:benefitHigh",
+          "subjectId": "FEATURE-104",
+          "field": "benefitHigh",
+          "value": 1400,
+          "sourceRef": "synthetic://FEATURE-104/benefitHigh",
+          "sourceHash": "843961ef6af56a23cfd951cbe6bb7b7d86aa953bdbe237adc5f2a0ce8f71e324",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-104:costLow",
+          "subjectId": "FEATURE-104",
+          "field": "costLow",
+          "value": 100,
+          "sourceRef": "synthetic://FEATURE-104/costLow",
+          "sourceHash": "fe006c15274bf97a7a62f6e41663ef0e7f60222c9fb52c0f5e899b2ff26ab249",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-104:costHigh",
+          "subjectId": "FEATURE-104",
+          "field": "costHigh",
+          "value": 200,
+          "sourceRef": "synthetic://FEATURE-104/costHigh",
+          "sourceHash": "5dd296f13036eed46bf49e11f1cdaed8103369ad1829ad4ed9ecf5845c28133c",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-104:effortDays",
+          "subjectId": "FEATURE-104",
+          "field": "effortDays",
+          "value": 30,
+          "sourceRef": "synthetic://FEATURE-104/effortDays",
+          "sourceHash": "a160317a17228d82b23dd0e0e607e2264ce63c903e0daf5a3d27e270f31438e5",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-104:deliveryDays",
+          "subjectId": "FEATURE-104",
+          "field": "deliveryDays",
+          "value": 5,
+          "sourceRef": "synthetic://FEATURE-104/deliveryDays",
+          "sourceHash": "b9cf6172b3ad32e6595170385d2f3bd523e15e3c11cd923f2aaf2a6dd01a763a",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-104:mechanism",
+          "subjectId": "FEATURE-104",
+          "field": "mechanism",
+          "value": "Remove repeated manual re-entry",
+          "sourceRef": "synthetic://FEATURE-104/mechanism",
+          "sourceHash": "71aaa8668a406569f3875db3802202ac1ec30f018557e338e5ee61b2b57572d3",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-104:outcomeMetric",
+          "subjectId": "FEATURE-104",
+          "field": "outcomeMetric",
+          "value": "Minutes of re-entry per completed case",
+          "sourceRef": "synthetic://FEATURE-104/outcomeMetric",
+          "sourceHash": "4c68a0c2d410b43ab1c673d32cf49a90fc198a6ea3060a2855b89409cbf740ca",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ENABLE-001",
+      "title": "Shared prerequisite mapping",
+      "owner": "synthetic-owner",
+      "team": "alpha",
+      "priority": 10,
+      "dependencyIds": [],
+      "deadlineDays": null,
+      "evidence": [
+        {
+          "id": "ENABLE-001:permitted",
+          "subjectId": "ENABLE-001",
+          "field": "permitted",
+          "value": true,
+          "sourceRef": "synthetic://ENABLE-001/permitted",
+          "sourceHash": "577d48be379c8aea2bcb57bb9b27d7678d07b4c7c87ac6369d1f4115f8d4d863",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "ENABLE-001:need",
+          "subjectId": "ENABLE-001",
+          "field": "need",
+          "value": true,
+          "sourceRef": "synthetic://ENABLE-001/need",
+          "sourceHash": "992070e47a0bde2aa4c89a78cef7324de04e837aae36707e5fa7b32e76ce15c5",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "ENABLE-001:benefitLow",
+          "subjectId": "ENABLE-001",
+          "field": "benefitLow",
+          "value": 1000,
+          "sourceRef": "synthetic://ENABLE-001/benefitLow",
+          "sourceHash": "89bc94777560517add2ee3b563557e1a7a90185238fabe36f0e429e1cc3ddd43",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "ENABLE-001:benefitHigh",
+          "subjectId": "ENABLE-001",
+          "field": "benefitHigh",
+          "value": 1400,
+          "sourceRef": "synthetic://ENABLE-001/benefitHigh",
+          "sourceHash": "a0bc33853d57a138c44c44a56cf55abd9d05d71735f161e19f04be69cddbe228",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "ENABLE-001:costLow",
+          "subjectId": "ENABLE-001",
+          "field": "costLow",
+          "value": 100,
+          "sourceRef": "synthetic://ENABLE-001/costLow",
+          "sourceHash": "c8ffb1635f60481e19f4c9001d605eb4223ac3d9f90636bd5e61774640ac799f",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "ENABLE-001:costHigh",
+          "subjectId": "ENABLE-001",
+          "field": "costHigh",
+          "value": 200,
+          "sourceRef": "synthetic://ENABLE-001/costHigh",
+          "sourceHash": "39b6ba38aeba32039e0733abe4f5316736840c6412831d87bae3b351149ad021",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "ENABLE-001:effortDays",
+          "subjectId": "ENABLE-001",
+          "field": "effortDays",
+          "value": 5,
+          "sourceRef": "synthetic://ENABLE-001/effortDays",
+          "sourceHash": "4d0f2946a0588a4332f426f59504b12980f6bc51edcd192ddb81faa5719ec1bc",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "ENABLE-001:deliveryDays",
+          "subjectId": "ENABLE-001",
+          "field": "deliveryDays",
+          "value": 5,
+          "sourceRef": "synthetic://ENABLE-001/deliveryDays",
+          "sourceHash": "29db2216cc6b94e52a7a565f0f0f2b155c1f110a5ef6a09a3405b894a993b320",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "ENABLE-001:mechanism",
+          "subjectId": "ENABLE-001",
+          "field": "mechanism",
+          "value": "Remove repeated manual re-entry",
+          "sourceRef": "synthetic://ENABLE-001/mechanism",
+          "sourceHash": "b9e7b094eb61b3e591abc30b45995237aaf2223478f3cdce1b1dbe69917471fc",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "ENABLE-001:outcomeMetric",
+          "subjectId": "ENABLE-001",
+          "field": "outcomeMetric",
+          "value": "Minutes of re-entry per completed case",
+          "sourceRef": "synthetic://ENABLE-001/outcomeMetric",
+          "sourceHash": "0a2fc4c5335d953345eebb16d01dc569ed7879c07908eccf6ffc00ca24dd4f2a",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "FEATURE-105",
+      "title": "Thin benefit case challenged by downside scenario",
+      "owner": "synthetic-owner",
+      "team": "alpha",
+      "priority": 5,
+      "dependencyIds": [],
+      "deadlineDays": null,
+      "evidence": [
+        {
+          "id": "FEATURE-105:permitted",
+          "subjectId": "FEATURE-105",
+          "field": "permitted",
+          "value": true,
+          "sourceRef": "synthetic://FEATURE-105/permitted",
+          "sourceHash": "41b96eaa3fcc91fdc7b0c45f88d74b4270516b55e2a0221c3165c9cd92e5702c",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-105:need",
+          "subjectId": "FEATURE-105",
+          "field": "need",
+          "value": true,
+          "sourceRef": "synthetic://FEATURE-105/need",
+          "sourceHash": "7fbf3753634646e72a97e339abb802ccd194864bdba45dea0d40de548ef6a87a",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-105:benefitLow",
+          "subjectId": "FEATURE-105",
+          "field": "benefitLow",
+          "value": 300,
+          "sourceRef": "synthetic://FEATURE-105/benefitLow",
+          "sourceHash": "02e0a0e263b2373b71df25f3227dff3dd9708d322ece76db1a2784b3bfdf8f46",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-105:benefitHigh",
+          "subjectId": "FEATURE-105",
+          "field": "benefitHigh",
+          "value": 1400,
+          "sourceRef": "synthetic://FEATURE-105/benefitHigh",
+          "sourceHash": "0aa28fe96368828d24bc43775467dafa8ef1ed755ac20f5efa49e5f8b980143b",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-105:costLow",
+          "subjectId": "FEATURE-105",
+          "field": "costLow",
+          "value": 100,
+          "sourceRef": "synthetic://FEATURE-105/costLow",
+          "sourceHash": "eb9bf15a102fa80ea08fe221f5054dbfa3090e81f2198641e14431069a00a8e2",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-105:costHigh",
+          "subjectId": "FEATURE-105",
+          "field": "costHigh",
+          "value": 200,
+          "sourceRef": "synthetic://FEATURE-105/costHigh",
+          "sourceHash": "59120802e125dbc1793edd4f5853a6484b108a574ee9caa4ae48556fb6b8be3f",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-105:effortDays",
+          "subjectId": "FEATURE-105",
+          "field": "effortDays",
+          "value": 5,
+          "sourceRef": "synthetic://FEATURE-105/effortDays",
+          "sourceHash": "3bef8084dbd5e67eae7ea54e456c678a8a3f365986cb9712eeaf0c4d76d79f17",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-105:deliveryDays",
+          "subjectId": "FEATURE-105",
+          "field": "deliveryDays",
+          "value": 5,
+          "sourceRef": "synthetic://FEATURE-105/deliveryDays",
+          "sourceHash": "119d3f8556af845beea37b18c51c68160433fed2eba663329c941574cd6c50d8",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-105:mechanism",
+          "subjectId": "FEATURE-105",
+          "field": "mechanism",
+          "value": "Remove repeated manual re-entry",
+          "sourceRef": "synthetic://FEATURE-105/mechanism",
+          "sourceHash": "5786deb125cc843bfe55d1da9dd59b49e6163baf6a0ff81a34abe9b519987fcc",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-105:outcomeMetric",
+          "subjectId": "FEATURE-105",
+          "field": "outcomeMetric",
+          "value": "Minutes of re-entry per completed case",
+          "sourceRef": "synthetic://FEATURE-105/outcomeMetric",
+          "sourceHash": "456a08a1fb40d26176701c3a583456e86f9247e176ee30cfd176d357385330dd",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "FEATURE-106",
+      "title": "Contradictory eligibility evidence",
+      "owner": "synthetic-owner",
+      "team": "alpha",
+      "priority": 6,
+      "dependencyIds": [],
+      "deadlineDays": null,
+      "evidence": [
+        {
+          "id": "FEATURE-106:permitted",
+          "subjectId": "FEATURE-106",
+          "field": "permitted",
+          "value": true,
+          "sourceRef": "synthetic://FEATURE-106/permitted",
+          "sourceHash": "82a60adf6cc75d0bdd9a59d7e57dffc3e147ec09981b2c652bc5a01f8795d588",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-106:need",
+          "subjectId": "FEATURE-106",
+          "field": "need",
+          "value": true,
+          "sourceRef": "synthetic://FEATURE-106/need",
+          "sourceHash": "c587a3ddb4cc1b7cbe7bcc027dca94bc937acd2b1ee984768fa4a8108859996e",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-106:benefitLow",
+          "subjectId": "FEATURE-106",
+          "field": "benefitLow",
+          "value": 1000,
+          "sourceRef": "synthetic://FEATURE-106/benefitLow",
+          "sourceHash": "5cb05fa2817be0d88cc38286f28738ed273173cd9502a1aced03c44cc313d4f6",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-106:benefitHigh",
+          "subjectId": "FEATURE-106",
+          "field": "benefitHigh",
+          "value": 1400,
+          "sourceRef": "synthetic://FEATURE-106/benefitHigh",
+          "sourceHash": "738316df864205acd51065e13cf744d05f9cc53080f0c3e012e4486a747f741c",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-106:costLow",
+          "subjectId": "FEATURE-106",
+          "field": "costLow",
+          "value": 100,
+          "sourceRef": "synthetic://FEATURE-106/costLow",
+          "sourceHash": "1f6b24711557795b965ae9682a4c655bbc8db3920e19b804745bca95484e8fb2",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-106:costHigh",
+          "subjectId": "FEATURE-106",
+          "field": "costHigh",
+          "value": 200,
+          "sourceRef": "synthetic://FEATURE-106/costHigh",
+          "sourceHash": "5989aa802b8547134ab80d085cd034b0d4818080a07bbd43ecfc19aefeaa1559",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-106:effortDays",
+          "subjectId": "FEATURE-106",
+          "field": "effortDays",
+          "value": 5,
+          "sourceRef": "synthetic://FEATURE-106/effortDays",
+          "sourceHash": "b207a49edc8107c71d5dfc613a24a7652848526487f753559e16990df75059d8",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-106:deliveryDays",
+          "subjectId": "FEATURE-106",
+          "field": "deliveryDays",
+          "value": 5,
+          "sourceRef": "synthetic://FEATURE-106/deliveryDays",
+          "sourceHash": "79ef5f43a19b65f50f264b8d6ff9f536d3ebbff8283feff6bc5036e1543534e8",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-106:mechanism",
+          "subjectId": "FEATURE-106",
+          "field": "mechanism",
+          "value": "Remove repeated manual re-entry",
+          "sourceRef": "synthetic://FEATURE-106/mechanism",
+          "sourceHash": "403398986f3d95fc6dfa2aafdaa00982bfc16c5923095ea12a8cc382aff07232",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "FEATURE-106:outcomeMetric",
+          "subjectId": "FEATURE-106",
+          "field": "outcomeMetric",
+          "value": "Minutes of re-entry per completed case",
+          "sourceRef": "synthetic://FEATURE-106/outcomeMetric",
+          "sourceHash": "9a9efeb94f9caf1b8f17548ece591749fd3fb414bd45288fe112d7616fe790e7",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "CONTRADICT-1",
+          "subjectId": "FEATURE-106",
+          "field": "permitted",
+          "value": false,
+          "sourceRef": "synthetic://FEATURE-106/permitted",
+          "sourceHash": "82a60adf6cc75d0bdd9a59d7e57dffc3e147ec09981b2c652bc5a01f8795d588",
+          "issuer": "synthetic-reviewed-adapter",
+          "observedAt": "2026-09-01T00:00:00.000Z",
+          "expiresAt": "2026-10-01T00:00:00.000Z"
+        }
+      ]
+    }
   ]
 }
