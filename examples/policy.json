@@ -1,0 +1,50 @@
+{
+  "schema": "intake-policy/v1",
+  "version": "SYNTHETIC-ONLY-1",
+  "authorityByField": {
+    "permitted": [
+      "synthetic-reviewed-adapter"
+    ],
+    "need": [
+      "synthetic-reviewed-adapter"
+    ],
+    "benefitLow": [
+      "synthetic-reviewed-adapter"
+    ],
+    "benefitHigh": [
+      "synthetic-reviewed-adapter"
+    ],
+    "costLow": [
+      "synthetic-reviewed-adapter"
+    ],
+    "costHigh": [
+      "synthetic-reviewed-adapter"
+    ],
+    "effortDays": [
+      "synthetic-reviewed-adapter"
+    ],
+    "deliveryDays": [
+      "synthetic-reviewed-adapter"
+    ],
+    "mechanism": [
+      "synthetic-reviewed-adapter"
+    ],
+    "outcomeMetric": [
+      "synthetic-reviewed-adapter"
+    ]
+  },
+  "capacityDaysByTeam": {
+    "alpha": 20,
+    "beta": 10
+  },
+  "horizonDays": 60,
+  "benefitRealizationBps": 8000,
+  "costStressBps": 12500,
+  "minNetBenefit": 100,
+  "valueUnit": "synthetic value units",
+  "benefitHorizon": "12 months",
+  "rejectWhen": [
+    "permitted",
+    "need"
+  ]
+}

@@ -1,0 +1,12 @@
+import { writeFileSync } from 'node:fs';
+import { item,policy,snapshot,claim } from '../test/fixtures.mjs';
+const a=item('FEATURE-101',1,{title:'Remove repeated case data entry',dependencyIds:['ENABLE-001']});
+const b=claim(item('FEATURE-102',2,{title:'Rebuild a workflow whose need has been disproved'}),'need',false);
+const c=item('FEATURE-103',3,{title:'Claimed time saving without supporting estimate'}); c.evidence=c.evidence.filter(e=>e.field!=='benefitLow');
+const d=claim(item('FEATURE-104',4,{title:'Large improvement beyond current team capacity'}),'effortDays',30);
+const e=item('ENABLE-001',10,{title:'Shared prerequisite mapping'});
+const f=claim(item('FEATURE-105',5,{title:'Thin benefit case challenged by downside scenario'}),'benefitLow',300);
+const g=item('FEATURE-106',6,{title:'Contradictory eligibility evidence'});
+g.evidence.push({...g.evidence[0],id:'CONTRADICT-1',value:false});
+writeFileSync(new URL('intakes.json',import.meta.url),JSON.stringify(snapshot([a,b,c,d,e,f,g]),null,2)+'\n');
+writeFileSync(new URL('policy.json',import.meta.url),JSON.stringify(policy(),null,2)+'\n');
