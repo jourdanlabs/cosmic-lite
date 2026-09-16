@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto';
 
-// Internal JSON encoding, not a claim of RFC 8787 compliance. Arrays preserve order.
+// Internal JSON encoding, not a claim of RFC 8785 compliance. Arrays preserve order.
 export function canonical(value: unknown): string {
   if (value === null || typeof value === 'boolean' || typeof value === 'string') return JSON.stringify(value);
   if (typeof value === 'number' && Number.isFinite(value)) return JSON.stringify(value);

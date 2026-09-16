@@ -1,0 +1,34 @@
+✔ complete robust case builds, preserving supplied priority (4.985907ms)
+✔ explicit authoritative disqualifier rejects despite missing estimates (4.490395ms)
+✔ missing evidence cannot become rejection or build (6.444583ms)
+✔ authoritative contradiction never becomes known false or proof (2.247934ms)
+✔ untrusted issuer cannot supply a rejection (3.434772ms)
+✔ wrong-subject evidence cannot supply an approval (0.948359ms)
+✔ expiration boundary is stale; future evidence is excluded (6.941241ms)
+✔ fresh matching claims remain usable when historical claims are stale (1.109268ms)
+✔ capacity causes defer and no overspend (1.484355ms)
+✔ missing team capacity requests evidence (0.854709ms)
+✔ priority admission admits dependency bundle and charges shared prerequisite once (1.892651ms)
+✔ failed bundle does not partially consume capacity (1.64948ms)
+✔ rejected prerequisite defers dependent without rejecting the dependent (1.466218ms)
+✔ unknown dependency and cycle cannot build (2.228641ms)
+✔ bundle elapsed time respects dependency critical path and deadline (1.141536ms)
+✔ same-team selected cases cannot overlap in conservative schedule (1.631124ms)
+✔ failing downside case requests stronger evidence or revised scope (1.072042ms)
+✔ inverted bounds and zero effort cannot build (2.178667ms)
+✔ turning off reject predicate cannot approve known ineligible case (1.123228ms)
+✔ exact replay is deterministic and leaves inputs unchanged (2.998404ms)
+✔ object insertion order and input item order do not alter receipt (4.971795ms)
+✔ changed evidence, policy, asOf, or output breaks replay (3.861586ms)
+✔ invalid schema, NaN, fractional estimates, and duplicate ids refuse input (1.665654ms)
+✔ invalid calendar timestamps and boolean strings refuse input (0.579802ms)
+✔ numeric stress is conservatively rounded (0.874539ms)
+✔ changing prerequisite invalidates dependent admission (5.09609ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 26
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 227.023984
