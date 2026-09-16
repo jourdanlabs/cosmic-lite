@@ -1,0 +1,299 @@
+✔ canonicalization is key-order independent and rejects undefined (1.658267ms)
+✔ receipt chain detects tampering and reordering (1.646701ms)
+✔ frozen output reveals only the committed payload (0.349576ms)
+✔ bitemporal selection uses valid time and knowledge time (0.546483ms)
+✖ Full V1 persists signed meanings, treaties, sources, and a certified STRATA run (242.555837ms)
+✖ Full V1 rejects a recomputed ledger against its external checkpoint (82.951654ms)
+✖ Full V1 refuses coordinated ledger-plus-authority tail rollback (71.409661ms)
+✖ Full V1 rejects a forged independent-authority checkpoint projection (74.520747ms)
+✖ Full V1 refuses a caller request that resolves to the wrong native STRATA metric (76.592566ms)
+✖ Full V1 export imports only into an empty read-only workspace and detects tamper (71.165143ms)
+✖ Full V1 API is read-only without a token and token-gates execution (73.117412ms)
+✖ Full V1 CI gate returns a breaking exit contract for changed meaning (73.709765ms)
+✔ PALIMPSEST selects as-of meaning and detects denominator drift (3.225457ms)
+✔ PALIMPSEST decomposes data effect from definition effect (0.388695ms)
+✔ DIALECTIC refuses an unapproved or stale treaty (1.044654ms)
+✔ semantic sandwich refuses when STRATA refuses (3.493151ms)
+✖ cloned STRATA executes through the bridge and preserves its receipt (198.033275ms)
+✖ semantic sandwich certifies a real cloned STRATA execution (89.849799ms)
+✔ outer semantic receipt is stable across STRATA telemetry changes (3.800985ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 9
+ℹ fail 10
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 911.968801
+
+✖ failing tests:
+
+test at tests/semantic-full-v1.test.mjs:146:1
+✖ Full V1 persists signed meanings, treaties, sources, and a certified STRATA run (242.555837ms)
+  Error: STRATA bridge exited 1: node:internal/modules/esm/resolve:271
+      throw new ERR_MODULE_NOT_FOUND(
+            ^
+  
+  Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs' imported from /workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/
+      at finalizeResolution (node:internal/modules/esm/resolve:271:11)
+      at moduleResolve (node:internal/modules/esm/resolve:865:10)
+      at defaultResolve (node:internal/modules/esm/resolve:992:11)
+      at #cachedDefaultResolve (node:internal/modules/esm/loader:701:20)
+      at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:721:38)
+      at ModuleLoader.resolveSync (node:internal/modules/esm/loader:759:56)
+      at #resolve (node:internal/modules/esm/loader:683:17)
+      at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+      at node:internal/modules/esm/loader:632:32
+      at TracingChannel.tracePromise (node:diagnostics_channel:362:14) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    url: 'file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs'
+  }
+  
+  Node.js v24.19.0
+      at ChildProcess.<anonymous> (file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/src/semantic/strata-adapter.mjs:130:16)
+      at ChildProcess.emit (node:events:509:28)
+      at maybeClose (node:internal/child_process:1141:16)
+      at ChildProcess._handle.onexit (node:internal/child_process:306:5)
+
+test at tests/semantic-full-v1.test.mjs:179:1
+✖ Full V1 rejects a recomputed ledger against its external checkpoint (82.951654ms)
+  Error: STRATA bridge exited 1: node:internal/modules/esm/resolve:271
+      throw new ERR_MODULE_NOT_FOUND(
+            ^
+  
+  Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs' imported from /workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/
+      at finalizeResolution (node:internal/modules/esm/resolve:271:11)
+      at moduleResolve (node:internal/modules/esm/resolve:865:10)
+      at defaultResolve (node:internal/modules/esm/resolve:992:11)
+      at #cachedDefaultResolve (node:internal/modules/esm/loader:701:20)
+      at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:721:38)
+      at ModuleLoader.resolveSync (node:internal/modules/esm/loader:759:56)
+      at #resolve (node:internal/modules/esm/loader:683:17)
+      at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+      at node:internal/modules/esm/loader:632:32
+      at TracingChannel.tracePromise (node:diagnostics_channel:362:14) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    url: 'file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs'
+  }
+  
+  Node.js v24.19.0
+      at ChildProcess.<anonymous> (file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/src/semantic/strata-adapter.mjs:130:16)
+      at ChildProcess.emit (node:events:509:28)
+      at maybeClose (node:internal/child_process:1141:16)
+      at ChildProcess._handle.onexit (node:internal/child_process:306:5)
+
+test at tests/semantic-full-v1.test.mjs:215:1
+✖ Full V1 refuses coordinated ledger-plus-authority tail rollback (71.409661ms)
+  Error: STRATA bridge exited 1: node:internal/modules/esm/resolve:271
+      throw new ERR_MODULE_NOT_FOUND(
+            ^
+  
+  Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs' imported from /workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/
+      at finalizeResolution (node:internal/modules/esm/resolve:271:11)
+      at moduleResolve (node:internal/modules/esm/resolve:865:10)
+      at defaultResolve (node:internal/modules/esm/resolve:992:11)
+      at #cachedDefaultResolve (node:internal/modules/esm/loader:701:20)
+      at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:721:38)
+      at ModuleLoader.resolveSync (node:internal/modules/esm/loader:759:56)
+      at #resolve (node:internal/modules/esm/loader:683:17)
+      at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+      at node:internal/modules/esm/loader:632:32
+      at TracingChannel.tracePromise (node:diagnostics_channel:362:14) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    url: 'file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs'
+  }
+  
+  Node.js v24.19.0
+      at ChildProcess.<anonymous> (file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/src/semantic/strata-adapter.mjs:130:16)
+      at ChildProcess.emit (node:events:509:28)
+      at maybeClose (node:internal/child_process:1141:16)
+      at ChildProcess._handle.onexit (node:internal/child_process:306:5)
+
+test at tests/semantic-full-v1.test.mjs:267:1
+✖ Full V1 rejects a forged independent-authority checkpoint projection (74.520747ms)
+  Error: STRATA bridge exited 1: node:internal/modules/esm/resolve:271
+      throw new ERR_MODULE_NOT_FOUND(
+            ^
+  
+  Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs' imported from /workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/
+      at finalizeResolution (node:internal/modules/esm/resolve:271:11)
+      at moduleResolve (node:internal/modules/esm/resolve:865:10)
+      at defaultResolve (node:internal/modules/esm/resolve:992:11)
+      at #cachedDefaultResolve (node:internal/modules/esm/loader:701:20)
+      at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:721:38)
+      at ModuleLoader.resolveSync (node:internal/modules/esm/loader:759:56)
+      at #resolve (node:internal/modules/esm/loader:683:17)
+      at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+      at node:internal/modules/esm/loader:632:32
+      at TracingChannel.tracePromise (node:diagnostics_channel:362:14) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    url: 'file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs'
+  }
+  
+  Node.js v24.19.0
+      at ChildProcess.<anonymous> (file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/src/semantic/strata-adapter.mjs:130:16)
+      at ChildProcess.emit (node:events:509:28)
+      at maybeClose (node:internal/child_process:1141:16)
+      at ChildProcess._handle.onexit (node:internal/child_process:306:5)
+
+test at tests/semantic-full-v1.test.mjs:303:1
+✖ Full V1 refuses a caller request that resolves to the wrong native STRATA metric (76.592566ms)
+  Error: STRATA bridge exited 1: node:internal/modules/esm/resolve:271
+      throw new ERR_MODULE_NOT_FOUND(
+            ^
+  
+  Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs' imported from /workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/
+      at finalizeResolution (node:internal/modules/esm/resolve:271:11)
+      at moduleResolve (node:internal/modules/esm/resolve:865:10)
+      at defaultResolve (node:internal/modules/esm/resolve:992:11)
+      at #cachedDefaultResolve (node:internal/modules/esm/loader:701:20)
+      at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:721:38)
+      at ModuleLoader.resolveSync (node:internal/modules/esm/loader:759:56)
+      at #resolve (node:internal/modules/esm/loader:683:17)
+      at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+      at node:internal/modules/esm/loader:632:32
+      at TracingChannel.tracePromise (node:diagnostics_channel:362:14) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    url: 'file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs'
+  }
+  
+  Node.js v24.19.0
+      at ChildProcess.<anonymous> (file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/src/semantic/strata-adapter.mjs:130:16)
+      at ChildProcess.emit (node:events:509:28)
+      at maybeClose (node:internal/child_process:1141:16)
+      at ChildProcess._handle.onexit (node:internal/child_process:306:5)
+
+test at tests/semantic-full-v1.test.mjs:315:1
+✖ Full V1 export imports only into an empty read-only workspace and detects tamper (71.165143ms)
+  Error: STRATA bridge exited 1: node:internal/modules/esm/resolve:271
+      throw new ERR_MODULE_NOT_FOUND(
+            ^
+  
+  Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs' imported from /workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/
+      at finalizeResolution (node:internal/modules/esm/resolve:271:11)
+      at moduleResolve (node:internal/modules/esm/resolve:865:10)
+      at defaultResolve (node:internal/modules/esm/resolve:992:11)
+      at #cachedDefaultResolve (node:internal/modules/esm/loader:701:20)
+      at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:721:38)
+      at ModuleLoader.resolveSync (node:internal/modules/esm/loader:759:56)
+      at #resolve (node:internal/modules/esm/loader:683:17)
+      at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+      at node:internal/modules/esm/loader:632:32
+      at TracingChannel.tracePromise (node:diagnostics_channel:362:14) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    url: 'file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs'
+  }
+  
+  Node.js v24.19.0
+      at ChildProcess.<anonymous> (file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/src/semantic/strata-adapter.mjs:130:16)
+      at ChildProcess.emit (node:events:509:28)
+      at maybeClose (node:internal/child_process:1141:16)
+      at ChildProcess._handle.onexit (node:internal/child_process:306:5)
+
+test at tests/semantic-full-v1.test.mjs:343:1
+✖ Full V1 API is read-only without a token and token-gates execution (73.117412ms)
+  Error: STRATA bridge exited 1: node:internal/modules/esm/resolve:271
+      throw new ERR_MODULE_NOT_FOUND(
+            ^
+  
+  Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs' imported from /workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/
+      at finalizeResolution (node:internal/modules/esm/resolve:271:11)
+      at moduleResolve (node:internal/modules/esm/resolve:865:10)
+      at defaultResolve (node:internal/modules/esm/resolve:992:11)
+      at #cachedDefaultResolve (node:internal/modules/esm/loader:701:20)
+      at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:721:38)
+      at ModuleLoader.resolveSync (node:internal/modules/esm/loader:759:56)
+      at #resolve (node:internal/modules/esm/loader:683:17)
+      at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+      at node:internal/modules/esm/loader:632:32
+      at TracingChannel.tracePromise (node:diagnostics_channel:362:14) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    url: 'file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs'
+  }
+  
+  Node.js v24.19.0
+      at ChildProcess.<anonymous> (file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/src/semantic/strata-adapter.mjs:130:16)
+      at ChildProcess.emit (node:events:509:28)
+      at maybeClose (node:internal/child_process:1141:16)
+      at ChildProcess._handle.onexit (node:internal/child_process:306:5)
+
+test at tests/semantic-full-v1.test.mjs:384:1
+✖ Full V1 CI gate returns a breaking exit contract for changed meaning (73.709765ms)
+  Error: STRATA bridge exited 1: node:internal/modules/esm/resolve:271
+      throw new ERR_MODULE_NOT_FOUND(
+            ^
+  
+  Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs' imported from /workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/
+      at finalizeResolution (node:internal/modules/esm/resolve:271:11)
+      at moduleResolve (node:internal/modules/esm/resolve:865:10)
+      at defaultResolve (node:internal/modules/esm/resolve:992:11)
+      at #cachedDefaultResolve (node:internal/modules/esm/loader:701:20)
+      at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:721:38)
+      at ModuleLoader.resolveSync (node:internal/modules/esm/loader:759:56)
+      at #resolve (node:internal/modules/esm/loader:683:17)
+      at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+      at node:internal/modules/esm/loader:632:32
+      at TracingChannel.tracePromise (node:diagnostics_channel:362:14) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    url: 'file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs'
+  }
+  
+  Node.js v24.19.0
+      at ChildProcess.<anonymous> (file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/src/semantic/strata-adapter.mjs:130:16)
+      at ChildProcess.emit (node:events:509:28)
+      at maybeClose (node:internal/child_process:1141:16)
+      at ChildProcess._handle.onexit (node:internal/child_process:306:5)
+
+test at tests/semantic.test.mjs:160:1
+✖ cloned STRATA executes through the bridge and preserves its receipt (198.033275ms)
+  Error: STRATA bridge exited 1: node:internal/modules/esm/resolve:271
+      throw new ERR_MODULE_NOT_FOUND(
+            ^
+  
+  Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs' imported from /workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/
+      at finalizeResolution (node:internal/modules/esm/resolve:271:11)
+      at moduleResolve (node:internal/modules/esm/resolve:865:10)
+      at defaultResolve (node:internal/modules/esm/resolve:992:11)
+      at #cachedDefaultResolve (node:internal/modules/esm/loader:701:20)
+      at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:721:38)
+      at ModuleLoader.resolveSync (node:internal/modules/esm/loader:759:56)
+      at #resolve (node:internal/modules/esm/loader:683:17)
+      at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+      at node:internal/modules/esm/loader:632:32
+      at TracingChannel.tracePromise (node:diagnostics_channel:362:14) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    url: 'file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs'
+  }
+  
+  Node.js v24.19.0
+      at ChildProcess.<anonymous> (file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/src/semantic/strata-adapter.mjs:130:16)
+      at ChildProcess.emit (node:events:509:28)
+      at maybeClose (node:internal/child_process:1141:16)
+      at ChildProcess._handle.onexit (node:internal/child_process:306:5)
+
+test at tests/semantic.test.mjs:186:1
+✖ semantic sandwich certifies a real cloned STRATA execution (89.849799ms)
+  Error: STRATA bridge exited 1: node:internal/modules/esm/resolve:271
+      throw new ERR_MODULE_NOT_FOUND(
+            ^
+  
+  Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs' imported from /workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/
+      at finalizeResolution (node:internal/modules/esm/resolve:271:11)
+      at moduleResolve (node:internal/modules/esm/resolve:865:10)
+      at defaultResolve (node:internal/modules/esm/resolve:992:11)
+      at #cachedDefaultResolve (node:internal/modules/esm/loader:701:20)
+      at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:721:38)
+      at ModuleLoader.resolveSync (node:internal/modules/esm/loader:759:56)
+      at #resolve (node:internal/modules/esm/loader:683:17)
+      at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+      at node:internal/modules/esm/loader:632:32
+      at TracingChannel.tracePromise (node:diagnostics_channel:362:14) {
+    code: 'ERR_MODULE_NOT_FOUND',
+    url: 'file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/vendor/strata-v1/node_modules/tsx/dist/loader.mjs'
+  }
+  
+  Node.js v24.19.0
+      at ChildProcess.<anonymous> (file:///workspace/scratch/2d7639ff605f/mantle-review/mantle-for-bulma-2026-09-16/foundry/src/semantic/strata-adapter.mjs:130:16)
+      at ChildProcess.emit (node:events:509:28)
+      at maybeClose (node:internal/child_process:1141:16)
+      at ChildProcess._handle.onexit (node:internal/child_process:306:5)

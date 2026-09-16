@@ -1,0 +1,71 @@
+{
+  "schema": "intake-observations/v1",
+  "sourceId": "SYNTHETIC-NOT-JPMC",
+  "sourceRevision": "revision-1",
+  "observedAt": "2026-09-16T00:00:00.000Z",
+  "validAt": "2026-09-16T00:00:00.000Z",
+  "knownAt": "2026-09-16T00:00:00.000Z",
+  "sourceSchema": {
+    "id": "synthetic-jira-projection",
+    "version": "1",
+    "fields": {
+      "productOwner": "string",
+      "want": "string",
+      "regulatory": "string",
+      "due": "string",
+      "application": "string",
+      "sizing": "string"
+    }
+  },
+  "records": [
+    {
+      "id": "SYN-1",
+      "priority": 7,
+      "projection": [
+        "productOwner",
+        "want",
+        "regulatory",
+        "due",
+        "application",
+        "sizing"
+      ],
+      "values": {
+        "productOwner": "Demo owner",
+        "want": "Reduce repeat data entry",
+        "regulatory": "Yes",
+        "due": "2026-09-10T00:00:00.000Z",
+        "application": "APP-DEMO",
+        "sizing": "Small"
+      }
+    },
+    {
+      "id": "SYN-2",
+      "priority": 2,
+      "projection": [
+        "want",
+        "due",
+        "sizing"
+      ],
+      "values": {
+        "want": "",
+        "due": null,
+        "sizing": "Medium"
+      }
+    },
+    {
+      "id": "SYN-3",
+      "priority": 11,
+      "projection": [
+        "regulatory",
+        "productOwner",
+        "due",
+        "want"
+      ],
+      "values": {
+        "regulatory": "Maybe",
+        "productOwner": "",
+        "due": "yesterday"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1477 @@
+{
+  "syntheticOnly": true,
+  "discovery": {
+    "schema": "intake-interpretation/v1",
+    "mode": "DISCOVERY",
+    "validAt": "2026-09-16T00:00:00.000Z",
+    "knownAt": "2026-09-16T00:00:00.000Z",
+    "sourceId": "SYNTHETIC-NOT-JPMC",
+    "sourceRevision": "revision-1",
+    "meaningVersion": "1",
+    "treatyId": "synthetic-intake-map-1",
+    "businessDecision": null,
+    "authorization": "NOT_ASSESSED",
+    "capacity": "NOT_ASSESSED",
+    "strata": null,
+    "verdict": "DRAFT_INTERPRETATION",
+    "reasons": [
+      "APPROVAL_MISSING:INTAKE_MEANING",
+      "APPROVAL_MISSING:INTAKE_TREATY",
+      "APPROVAL_MISSING:INTAKE_SOURCE"
+    ],
+    "observations": [
+      {
+        "id": "SYN-1",
+        "priority": 7,
+        "fields": {
+          "owner": {
+            "status": "OBSERVED",
+            "value": "Demo owner",
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:026e0ee999760c1fb5d1e5d4fc491f21f0edcad916d9ea278a315a25e161a3b9",
+              "recordId": "SYN-1",
+              "field": "productOwner",
+              "rawValue": "Demo owner",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": "sha256:c41777797fbe2ecc3cdbcf1c1531bd5c7306a6690dd2ca7756c204128d966d50"
+            }
+          },
+          "requestedChange": {
+            "status": "OBSERVED",
+            "value": "Reduce repeat data entry",
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:20db75ae6d66439a676e05e4cacb6864adcb55e19097f68e9f00843b5ccc31e9",
+              "recordId": "SYN-1",
+              "field": "want",
+              "rawValue": "Reduce repeat data entry",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": "sha256:814a5d388cc8c35b1ac64e3fcf55c622728a9b2fca2981bfe23f0c0672e1db0c"
+            }
+          },
+          "regulatoryImpactReported": {
+            "status": "OBSERVED",
+            "value": true,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:cfaea203fc7006b3caea3e2fc71ef2ad017442916bcc00ce89c7ddd120845a2b",
+              "recordId": "SYN-1",
+              "field": "regulatory",
+              "rawValue": "Yes",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": "sha256:034d395d8f0ac94f55004c77a0b745321b92831fc465f60f05774842c18f3355"
+            }
+          },
+          "requestedDueAt": {
+            "status": "OBSERVED",
+            "value": "2026-09-10T00:00:00.000Z",
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:18699492df5fba07cba4dce54c88ab76450060aefcab8b15c60d97adca1b12e8",
+              "recordId": "SYN-1",
+              "field": "due",
+              "rawValue": "2026-09-10T00:00:00.000Z",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": "sha256:be48e6cdc6c39c584c68130900e3433a55e307fe8a1fc281d204d557174f949e"
+            }
+          },
+          "applicationRef": {
+            "status": "OBSERVED",
+            "value": "APP-DEMO",
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:358c2eb12bf2a59d35cfa8fe23367fdfff17f2f7bc53bc847e90451028a18f37",
+              "recordId": "SYN-1",
+              "field": "application",
+              "rawValue": "APP-DEMO",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": "sha256:7369761b1abb394379df319edc4beaa05593ba73ba506f6e33e5d8ac35bfbd7f"
+            }
+          },
+          "sizeBand": {
+            "status": "OBSERVED",
+            "value": "S",
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:cd8792031eafbb45819025f23ba63b62937c989ba167e48c01d021379f38fa0a",
+              "recordId": "SYN-1",
+              "field": "sizing",
+              "rawValue": "Small",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": "sha256:1c37a0fd56dbe4bcd83130a16de61ca42a7191db78dac641b490039fddf8993a"
+            }
+          }
+        }
+      },
+      {
+        "id": "SYN-2",
+        "priority": 2,
+        "fields": {
+          "owner": {
+            "status": "NOT_FETCHED",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:0e499a251980455ed6f69204b33710c28695c211d413ffc3e61afe1cc780ff72",
+              "recordId": "SYN-2",
+              "field": "productOwner",
+              "rawValue": null,
+              "projected": false,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "requestedChange": {
+            "status": "BLANK",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:b20a7819de19f886713b5c992d80241ea53086bf685a5b64046ee6272fd507b1",
+              "recordId": "SYN-2",
+              "field": "want",
+              "rawValue": "",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "regulatoryImpactReported": {
+            "status": "NOT_FETCHED",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:371f178d3abab64182d0ea894c7d0aeb4151b0b9c6fbf78613744a41978e8259",
+              "recordId": "SYN-2",
+              "field": "regulatory",
+              "rawValue": null,
+              "projected": false,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "requestedDueAt": {
+            "status": "BLANK",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:3759f0201866ea807e44c66f4491c05d782a6a4b3e99eb0d7e4a4800f48f9d31",
+              "recordId": "SYN-2",
+              "field": "due",
+              "rawValue": null,
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "applicationRef": {
+            "status": "NOT_FETCHED",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:f580c7cfb5177f1a49fe4c6918c86e7e8a84d38ac87c77ba3640a8cad3ee5def",
+              "recordId": "SYN-2",
+              "field": "application",
+              "rawValue": null,
+              "projected": false,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "sizeBand": {
+            "status": "OBSERVED",
+            "value": "M",
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:1882195ecaabc6175c74638374a9c3f464d5cd58910af6cada6d4a312beadeab",
+              "recordId": "SYN-2",
+              "field": "sizing",
+              "rawValue": "Medium",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": "sha256:3f942bb9b3024ddd7a68de333018cfe6b30d3d6ceb3979367b9d226640b458cb"
+            }
+          }
+        }
+      },
+      {
+        "id": "SYN-3",
+        "priority": 11,
+        "fields": {
+          "owner": {
+            "status": "BLANK",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:0a13a81ad6234cc6e064bcf11772382bd1b5f991e07ce08b41f790bb9daf5515",
+              "recordId": "SYN-3",
+              "field": "productOwner",
+              "rawValue": "",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "requestedChange": {
+            "status": "ABSENT",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:df8d236edcaaddd6d23c801d5cbb8f347f3bd34168fd4e07b56ffeae9823f7da",
+              "recordId": "SYN-3",
+              "field": "want",
+              "rawValue": null,
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "regulatoryImpactReported": {
+            "status": "UNMAPPED",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:cd37b2c73c60760db920734ada615c21f3b5ccd03f1a90d6debd5052dd147dd8",
+              "recordId": "SYN-3",
+              "field": "regulatory",
+              "rawValue": "Maybe",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "requestedDueAt": {
+            "status": "INVALID",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:2ef5eec3eaff82ecbdc84358a07235150a39e329f453ea0c3f40a924b9ac35b2",
+              "recordId": "SYN-3",
+              "field": "due",
+              "rawValue": "yesterday",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": "sha256:9aab48f027900139783028b919bc9c115053d0a21c45cbaa2a61d1b84cb5f791"
+            }
+          },
+          "applicationRef": {
+            "status": "NOT_FETCHED",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:c4857bcd9b3fba6db60c5279afe79b7a7ed95727c07854857b2a6ef04f70c41b",
+              "recordId": "SYN-3",
+              "field": "application",
+              "rawValue": null,
+              "projected": false,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "sizeBand": {
+            "status": "NOT_FETCHED",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "DRAFT_INTERPRETATION",
+            "source": {
+              "id": "sha256:902a4b83013767eb64573bd8d4b87ff099a382483ed11220b8a8bdc1b2db679b",
+              "recordId": "SYN-3",
+              "field": "sizing",
+              "rawValue": null,
+              "projected": false,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          }
+        }
+      }
+    ],
+    "assessment": {
+      "scope": "SOURCE_OBSERVATIONS_ONLY",
+      "coverage": {
+        "owner": {
+          "denominator": 3,
+          "OBSERVED": 1,
+          "BLANK": 1,
+          "NOT_FETCHED": 1,
+          "ABSENT": 0,
+          "UNMAPPED": 0,
+          "INVALID": 0
+        },
+        "requestedChange": {
+          "denominator": 3,
+          "OBSERVED": 1,
+          "BLANK": 1,
+          "NOT_FETCHED": 0,
+          "ABSENT": 1,
+          "UNMAPPED": 0,
+          "INVALID": 0
+        },
+        "regulatoryImpactReported": {
+          "denominator": 3,
+          "OBSERVED": 1,
+          "BLANK": 0,
+          "NOT_FETCHED": 1,
+          "ABSENT": 0,
+          "UNMAPPED": 1,
+          "INVALID": 0
+        },
+        "requestedDueAt": {
+          "denominator": 3,
+          "OBSERVED": 1,
+          "BLANK": 1,
+          "NOT_FETCHED": 0,
+          "ABSENT": 0,
+          "UNMAPPED": 0,
+          "INVALID": 1
+        },
+        "applicationRef": {
+          "denominator": 3,
+          "OBSERVED": 1,
+          "BLANK": 0,
+          "NOT_FETCHED": 2,
+          "ABSENT": 0,
+          "UNMAPPED": 0,
+          "INVALID": 0
+        },
+        "sizeBand": {
+          "denominator": 3,
+          "OBSERVED": 2,
+          "BLANK": 0,
+          "NOT_FETCHED": 1,
+          "ABSENT": 0,
+          "UNMAPPED": 0,
+          "INVALID": 0
+        }
+      },
+      "overdueRequestedIds": [
+        "SYN-1"
+      ],
+      "questions": [
+        {
+          "recordId": "SYN-2",
+          "field": "owner",
+          "status": "NOT_FETCHED",
+          "action": "FETCH_DETAIL"
+        },
+        {
+          "recordId": "SYN-2",
+          "field": "requestedChange",
+          "status": "BLANK",
+          "action": "RESOLVE_SOURCE_VALUE"
+        },
+        {
+          "recordId": "SYN-2",
+          "field": "regulatoryImpactReported",
+          "status": "NOT_FETCHED",
+          "action": "FETCH_DETAIL"
+        },
+        {
+          "recordId": "SYN-2",
+          "field": "requestedDueAt",
+          "status": "BLANK",
+          "action": "RESOLVE_SOURCE_VALUE"
+        },
+        {
+          "recordId": "SYN-2",
+          "field": "applicationRef",
+          "status": "NOT_FETCHED",
+          "action": "FETCH_DETAIL"
+        },
+        {
+          "recordId": "SYN-3",
+          "field": "owner",
+          "status": "BLANK",
+          "action": "RESOLVE_SOURCE_VALUE"
+        },
+        {
+          "recordId": "SYN-3",
+          "field": "requestedChange",
+          "status": "ABSENT",
+          "action": "RESOLVE_SOURCE_VALUE"
+        },
+        {
+          "recordId": "SYN-3",
+          "field": "regulatoryImpactReported",
+          "status": "UNMAPPED",
+          "action": "REVIEW_MAPPING"
+        },
+        {
+          "recordId": "SYN-3",
+          "field": "requestedDueAt",
+          "status": "INVALID",
+          "action": "RESOLVE_SOURCE_VALUE"
+        },
+        {
+          "recordId": "SYN-3",
+          "field": "applicationRef",
+          "status": "NOT_FETCHED",
+          "action": "FETCH_DETAIL"
+        },
+        {
+          "recordId": "SYN-3",
+          "field": "sizeBand",
+          "status": "NOT_FETCHED",
+          "action": "FETCH_DETAIL"
+        }
+      ],
+      "limitations": [
+        "Reported regulatory impact is not mandatory status.",
+        "Owner identification is not approval.",
+        "Requested change is not a validated causal mechanism.",
+        "Absent capacity and economics are not estimated."
+      ]
+    },
+    "evidence": {
+      "verdict": "REFUSED",
+      "receipt": {
+        "receipt_version": "jl.receipt.v1",
+        "engine": "CAIRN",
+        "operation": "evidence-packet",
+        "input_hash": "sha256:6a850b669f59558706c1cda8c9dc9d7b39f9a6309c99eb844e2cf68dffb40a34",
+        "output_hash": "sha256:e7885a631bfacd3fdefa060910158ec9182a635880b3eb7ffde177a529dc5104",
+        "verdict": "REFUSED",
+        "reasons": [
+          "UNCONTROLLED_SOURCE:sha256:026e0ee999760c1fb5d1e5d4fc491f21f0edcad916d9ea278a315a25e161a3b9",
+          "UNCONTROLLED_SOURCE:sha256:0a13a81ad6234cc6e064bcf11772382bd1b5f991e07ce08b41f790bb9daf5515",
+          "UNCONTROLLED_SOURCE:sha256:0e499a251980455ed6f69204b33710c28695c211d413ffc3e61afe1cc780ff72",
+          "UNCONTROLLED_SOURCE:sha256:18699492df5fba07cba4dce54c88ab76450060aefcab8b15c60d97adca1b12e8",
+          "UNCONTROLLED_SOURCE:sha256:1882195ecaabc6175c74638374a9c3f464d5cd58910af6cada6d4a312beadeab",
+          "UNCONTROLLED_SOURCE:sha256:20db75ae6d66439a676e05e4cacb6864adcb55e19097f68e9f00843b5ccc31e9",
+          "UNCONTROLLED_SOURCE:sha256:2ef5eec3eaff82ecbdc84358a07235150a39e329f453ea0c3f40a924b9ac35b2",
+          "UNCONTROLLED_SOURCE:sha256:358c2eb12bf2a59d35cfa8fe23367fdfff17f2f7bc53bc847e90451028a18f37",
+          "UNCONTROLLED_SOURCE:sha256:371f178d3abab64182d0ea894c7d0aeb4151b0b9c6fbf78613744a41978e8259",
+          "UNCONTROLLED_SOURCE:sha256:3759f0201866ea807e44c66f4491c05d782a6a4b3e99eb0d7e4a4800f48f9d31",
+          "UNCONTROLLED_SOURCE:sha256:902a4b83013767eb64573bd8d4b87ff099a382483ed11220b8a8bdc1b2db679b",
+          "UNCONTROLLED_SOURCE:sha256:b20a7819de19f886713b5c992d80241ea53086bf685a5b64046ee6272fd507b1",
+          "UNCONTROLLED_SOURCE:sha256:c4857bcd9b3fba6db60c5279afe79b7a7ed95727c07854857b2a6ef04f70c41b",
+          "UNCONTROLLED_SOURCE:sha256:cd37b2c73c60760db920734ada615c21f3b5ccd03f1a90d6debd5052dd147dd8",
+          "UNCONTROLLED_SOURCE:sha256:cd8792031eafbb45819025f23ba63b62937c989ba167e48c01d021379f38fa0a",
+          "UNCONTROLLED_SOURCE:sha256:cfaea203fc7006b3caea3e2fc71ef2ad017442916bcc00ce89c7ddd120845a2b",
+          "UNCONTROLLED_SOURCE:sha256:df8d236edcaaddd6d23c801d5cbb8f347f3bd34168fd4e07b56ffeae9823f7da",
+          "UNCONTROLLED_SOURCE:sha256:f580c7cfb5177f1a49fe4c6918c86e7e8a84d38ac87c77ba3640a8cad3ee5def"
+        ],
+        "evidence_hashes": [
+          "sha256:19e0f31171bcefbd0c51979017a865e2a19dc9111a3566c0807d95442189dbc3",
+          "sha256:1e38a15f5fb5c501aa96233209f51696c89729d91c86c764ecc85210e3ce5010",
+          "sha256:2114b5b52721c8a7b4d6979df2fa5b7b9c5d5ad25a67be5249685be7418f9496",
+          "sha256:278022f1c5af07e3d4f404ddb60fc8d4d089739d58b5e2194a410007c3898ad9",
+          "sha256:2cae230e8f04edaaf1bdfdb0c48778c3e2a7519c4540cb9579b763f993671b2c",
+          "sha256:56935f45743c2a6824feab6043ce01810788b6f0ad6d731e8cdc9312fd054890",
+          "sha256:7f91204a6e3eb112ac719b6ab89772c02a6ca44de29e62f3cbea767f4161b45e",
+          "sha256:824b481914ff5be4c5145c7e8f782994d3ac1cc64caa56966c32eb5bb8028bd3",
+          "sha256:83dd01894fafc7c09bd80f2304bb69a6a0e4003b71293190a59dc30f5e5ebbc1",
+          "sha256:85d99dd469b74be035f2b62a191e3b2fa9a814798818a5139adde3a4f15dd430",
+          "sha256:862349c67dff8a96dde373ac24ef7594bea3efc1f71e08844e7c02d5d6bde54f",
+          "sha256:a87c45af268b8eda27f3f5c5c324d8b93790dadeef67ab0ecd2859662f66eadc",
+          "sha256:b29003422b5804991a1febed6ab666d165f60e917ad98a347e05c3ab77fa937d",
+          "sha256:bc9821ccf4bd6d0a72ab04654e8f7f550492200cbd097ab4ff759853cc2214dc",
+          "sha256:d9936c7379461b5b8eab957ba2928c89571ca52a29d8cfac1b4dd631b0b68221",
+          "sha256:f4c3dc9adb17912ed0070b681222d81d462c8ff4697e031afc6709076bc034a6",
+          "sha256:f9d114aade777a89c0e071c42aa83cbf705ba833e0450bd9a31d3e529c231cec",
+          "sha256:fbff72cd0f02d49dd9a373cf22b9d13ea2b6f57c396174e6016232b58b2d61ed"
+        ],
+        "authority_hash": null,
+        "previous_receipt_hash": null,
+        "metadata": {},
+        "receipt_hash": "sha256:eaf8d2e694ff5eebbfcd34e0b203e6324050807f77662c87e1b40621db1bb3b1"
+      }
+    },
+    "receipt": {
+      "receipt_version": "jl.receipt.v1",
+      "engine": "INTAKE_MEANING_CORE",
+      "operation": "interpret-source-assertions",
+      "input_hash": "sha256:d30cb3489045e5e049722d81b3e4b466fc35ef09d8599db770a4ead083004a46",
+      "output_hash": "sha256:dc2fd6373c085341993400dc0a3ca13f8302cfe67b4a7e5df1b4293c1e3ca8e4",
+      "verdict": "DRAFT_INTERPRETATION",
+      "reasons": [
+        "APPROVAL_MISSING:INTAKE_MEANING",
+        "APPROVAL_MISSING:INTAKE_SOURCE",
+        "APPROVAL_MISSING:INTAKE_TREATY"
+      ],
+      "evidence_hashes": [
+        "sha256:309a0857af0352a2cbb47b633b392d6ba5b41de8061bd3c139476e04cd840cc1",
+        "sha256:3b2e8c0f3f406523a004342285314fbc36cb9b956d5cf5a82e2e0f7b0144cb88",
+        "sha256:49c9483a9dadf104a45417e7173c06d952be829e46a38dc08c357172c02cf3ed",
+        "sha256:8e3796974fcd9ff654792fcd363b8191f0d26e006957ce57a49c403c88d61fa0",
+        "sha256:93f150fb9155c01c44e13294ac876b56fec99c442668bef653f5a3c20f7164cd",
+        "sha256:994a80d54ba70b7073ef4d20adf4ea3c42eba5ea5069ed6a73db7c89f4560cb7",
+        "sha256:9b118501d7c1e0af5ccfbe6b6752d6783961c69f8f943bdba52928e5989cfbf9",
+        "sha256:b0b0afd501f101414f8969a83d0f3a192c84d01406998c41d6dee06ea2ff3f5a",
+        "sha256:d909263b17bd6e43ee824c4044d6fc4ef407bfb8919c88ddaa528f9ccca6905e",
+        "sha256:df866364c909a8a5f7a8fd470895528973002580c3d7a4b1650e890c48c10a29"
+      ],
+      "authority_hash": null,
+      "previous_receipt_hash": null,
+      "metadata": {
+        "implementationHash": "sha256:bb0928caee84d1769672ac6477215fe579260068d8ac87c332e13beb2e39fc16",
+        "product": "intake-meaning-core",
+        "runtime": "v24.19.0/linux/x64"
+      },
+      "receipt_hash": "sha256:e500b6845c75bef7e03fbef92c5164f38a2bc33029614c2dd35ed9bd2b6b8353"
+    }
+  },
+  "controlled": {
+    "schema": "intake-interpretation/v1",
+    "mode": "CONTROLLED",
+    "validAt": "2026-09-16T00:00:00.000Z",
+    "knownAt": "2026-09-16T00:00:00.000Z",
+    "sourceId": "SYNTHETIC-NOT-JPMC",
+    "sourceRevision": "revision-1",
+    "meaningVersion": "1",
+    "treatyId": "synthetic-intake-map-1",
+    "businessDecision": null,
+    "authorization": "NOT_ASSESSED",
+    "capacity": "NOT_ASSESSED",
+    "strata": null,
+    "verdict": "VERIFIED_MAPPING",
+    "reasons": [],
+    "observations": [
+      {
+        "id": "SYN-1",
+        "priority": 7,
+        "fields": {
+          "owner": {
+            "status": "OBSERVED",
+            "value": "Demo owner",
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:026e0ee999760c1fb5d1e5d4fc491f21f0edcad916d9ea278a315a25e161a3b9",
+              "recordId": "SYN-1",
+              "field": "productOwner",
+              "rawValue": "Demo owner",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": "sha256:c41777797fbe2ecc3cdbcf1c1531bd5c7306a6690dd2ca7756c204128d966d50"
+            }
+          },
+          "requestedChange": {
+            "status": "OBSERVED",
+            "value": "Reduce repeat data entry",
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:20db75ae6d66439a676e05e4cacb6864adcb55e19097f68e9f00843b5ccc31e9",
+              "recordId": "SYN-1",
+              "field": "want",
+              "rawValue": "Reduce repeat data entry",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": "sha256:814a5d388cc8c35b1ac64e3fcf55c622728a9b2fca2981bfe23f0c0672e1db0c"
+            }
+          },
+          "regulatoryImpactReported": {
+            "status": "OBSERVED",
+            "value": true,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:cfaea203fc7006b3caea3e2fc71ef2ad017442916bcc00ce89c7ddd120845a2b",
+              "recordId": "SYN-1",
+              "field": "regulatory",
+              "rawValue": "Yes",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": "sha256:034d395d8f0ac94f55004c77a0b745321b92831fc465f60f05774842c18f3355"
+            }
+          },
+          "requestedDueAt": {
+            "status": "OBSERVED",
+            "value": "2026-09-10T00:00:00.000Z",
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:18699492df5fba07cba4dce54c88ab76450060aefcab8b15c60d97adca1b12e8",
+              "recordId": "SYN-1",
+              "field": "due",
+              "rawValue": "2026-09-10T00:00:00.000Z",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": "sha256:be48e6cdc6c39c584c68130900e3433a55e307fe8a1fc281d204d557174f949e"
+            }
+          },
+          "applicationRef": {
+            "status": "OBSERVED",
+            "value": "APP-DEMO",
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:358c2eb12bf2a59d35cfa8fe23367fdfff17f2f7bc53bc847e90451028a18f37",
+              "recordId": "SYN-1",
+              "field": "application",
+              "rawValue": "APP-DEMO",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": "sha256:7369761b1abb394379df319edc4beaa05593ba73ba506f6e33e5d8ac35bfbd7f"
+            }
+          },
+          "sizeBand": {
+            "status": "OBSERVED",
+            "value": "S",
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:cd8792031eafbb45819025f23ba63b62937c989ba167e48c01d021379f38fa0a",
+              "recordId": "SYN-1",
+              "field": "sizing",
+              "rawValue": "Small",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": "sha256:1c37a0fd56dbe4bcd83130a16de61ca42a7191db78dac641b490039fddf8993a"
+            }
+          }
+        }
+      },
+      {
+        "id": "SYN-2",
+        "priority": 2,
+        "fields": {
+          "owner": {
+            "status": "NOT_FETCHED",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:0e499a251980455ed6f69204b33710c28695c211d413ffc3e61afe1cc780ff72",
+              "recordId": "SYN-2",
+              "field": "productOwner",
+              "rawValue": null,
+              "projected": false,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "requestedChange": {
+            "status": "BLANK",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:b20a7819de19f886713b5c992d80241ea53086bf685a5b64046ee6272fd507b1",
+              "recordId": "SYN-2",
+              "field": "want",
+              "rawValue": "",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "regulatoryImpactReported": {
+            "status": "NOT_FETCHED",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:371f178d3abab64182d0ea894c7d0aeb4151b0b9c6fbf78613744a41978e8259",
+              "recordId": "SYN-2",
+              "field": "regulatory",
+              "rawValue": null,
+              "projected": false,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "requestedDueAt": {
+            "status": "BLANK",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:3759f0201866ea807e44c66f4491c05d782a6a4b3e99eb0d7e4a4800f48f9d31",
+              "recordId": "SYN-2",
+              "field": "due",
+              "rawValue": null,
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "applicationRef": {
+            "status": "NOT_FETCHED",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:f580c7cfb5177f1a49fe4c6918c86e7e8a84d38ac87c77ba3640a8cad3ee5def",
+              "recordId": "SYN-2",
+              "field": "application",
+              "rawValue": null,
+              "projected": false,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "sizeBand": {
+            "status": "OBSERVED",
+            "value": "M",
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:1882195ecaabc6175c74638374a9c3f464d5cd58910af6cada6d4a312beadeab",
+              "recordId": "SYN-2",
+              "field": "sizing",
+              "rawValue": "Medium",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": "sha256:3f942bb9b3024ddd7a68de333018cfe6b30d3d6ceb3979367b9d226640b458cb"
+            }
+          }
+        }
+      },
+      {
+        "id": "SYN-3",
+        "priority": 11,
+        "fields": {
+          "owner": {
+            "status": "BLANK",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:0a13a81ad6234cc6e064bcf11772382bd1b5f991e07ce08b41f790bb9daf5515",
+              "recordId": "SYN-3",
+              "field": "productOwner",
+              "rawValue": "",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "requestedChange": {
+            "status": "ABSENT",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:df8d236edcaaddd6d23c801d5cbb8f347f3bd34168fd4e07b56ffeae9823f7da",
+              "recordId": "SYN-3",
+              "field": "want",
+              "rawValue": null,
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "regulatoryImpactReported": {
+            "status": "UNMAPPED",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:cd37b2c73c60760db920734ada615c21f3b5ccd03f1a90d6debd5052dd147dd8",
+              "recordId": "SYN-3",
+              "field": "regulatory",
+              "rawValue": "Maybe",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "requestedDueAt": {
+            "status": "INVALID",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:2ef5eec3eaff82ecbdc84358a07235150a39e329f453ea0c3f40a924b9ac35b2",
+              "recordId": "SYN-3",
+              "field": "due",
+              "rawValue": "yesterday",
+              "projected": true,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": "sha256:9aab48f027900139783028b919bc9c115053d0a21c45cbaa2a61d1b84cb5f791"
+            }
+          },
+          "applicationRef": {
+            "status": "NOT_FETCHED",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:c4857bcd9b3fba6db60c5279afe79b7a7ed95727c07854857b2a6ef04f70c41b",
+              "recordId": "SYN-3",
+              "field": "application",
+              "rawValue": null,
+              "projected": false,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          },
+          "sizeBand": {
+            "status": "NOT_FETCHED",
+            "value": null,
+            "claimClass": "SOURCE_ASSERTION",
+            "admission": "CONTROLLED_MAPPING",
+            "source": {
+              "id": "sha256:902a4b83013767eb64573bd8d4b87ff099a382483ed11220b8a8bdc1b2db679b",
+              "recordId": "SYN-3",
+              "field": "sizing",
+              "rawValue": null,
+              "projected": false,
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04",
+              "mappingReceiptHash": null
+            }
+          }
+        }
+      }
+    ],
+    "assessment": {
+      "scope": "SOURCE_OBSERVATIONS_ONLY",
+      "coverage": {
+        "owner": {
+          "denominator": 3,
+          "OBSERVED": 1,
+          "BLANK": 1,
+          "NOT_FETCHED": 1,
+          "ABSENT": 0,
+          "UNMAPPED": 0,
+          "INVALID": 0
+        },
+        "requestedChange": {
+          "denominator": 3,
+          "OBSERVED": 1,
+          "BLANK": 1,
+          "NOT_FETCHED": 0,
+          "ABSENT": 1,
+          "UNMAPPED": 0,
+          "INVALID": 0
+        },
+        "regulatoryImpactReported": {
+          "denominator": 3,
+          "OBSERVED": 1,
+          "BLANK": 0,
+          "NOT_FETCHED": 1,
+          "ABSENT": 0,
+          "UNMAPPED": 1,
+          "INVALID": 0
+        },
+        "requestedDueAt": {
+          "denominator": 3,
+          "OBSERVED": 1,
+          "BLANK": 1,
+          "NOT_FETCHED": 0,
+          "ABSENT": 0,
+          "UNMAPPED": 0,
+          "INVALID": 1
+        },
+        "applicationRef": {
+          "denominator": 3,
+          "OBSERVED": 1,
+          "BLANK": 0,
+          "NOT_FETCHED": 2,
+          "ABSENT": 0,
+          "UNMAPPED": 0,
+          "INVALID": 0
+        },
+        "sizeBand": {
+          "denominator": 3,
+          "OBSERVED": 2,
+          "BLANK": 0,
+          "NOT_FETCHED": 1,
+          "ABSENT": 0,
+          "UNMAPPED": 0,
+          "INVALID": 0
+        }
+      },
+      "overdueRequestedIds": [
+        "SYN-1"
+      ],
+      "questions": [
+        {
+          "recordId": "SYN-2",
+          "field": "owner",
+          "status": "NOT_FETCHED",
+          "action": "FETCH_DETAIL"
+        },
+        {
+          "recordId": "SYN-2",
+          "field": "requestedChange",
+          "status": "BLANK",
+          "action": "RESOLVE_SOURCE_VALUE"
+        },
+        {
+          "recordId": "SYN-2",
+          "field": "regulatoryImpactReported",
+          "status": "NOT_FETCHED",
+          "action": "FETCH_DETAIL"
+        },
+        {
+          "recordId": "SYN-2",
+          "field": "requestedDueAt",
+          "status": "BLANK",
+          "action": "RESOLVE_SOURCE_VALUE"
+        },
+        {
+          "recordId": "SYN-2",
+          "field": "applicationRef",
+          "status": "NOT_FETCHED",
+          "action": "FETCH_DETAIL"
+        },
+        {
+          "recordId": "SYN-3",
+          "field": "owner",
+          "status": "BLANK",
+          "action": "RESOLVE_SOURCE_VALUE"
+        },
+        {
+          "recordId": "SYN-3",
+          "field": "requestedChange",
+          "status": "ABSENT",
+          "action": "RESOLVE_SOURCE_VALUE"
+        },
+        {
+          "recordId": "SYN-3",
+          "field": "regulatoryImpactReported",
+          "status": "UNMAPPED",
+          "action": "REVIEW_MAPPING"
+        },
+        {
+          "recordId": "SYN-3",
+          "field": "requestedDueAt",
+          "status": "INVALID",
+          "action": "RESOLVE_SOURCE_VALUE"
+        },
+        {
+          "recordId": "SYN-3",
+          "field": "applicationRef",
+          "status": "NOT_FETCHED",
+          "action": "FETCH_DETAIL"
+        },
+        {
+          "recordId": "SYN-3",
+          "field": "sizeBand",
+          "status": "NOT_FETCHED",
+          "action": "FETCH_DETAIL"
+        }
+      ],
+      "limitations": [
+        "Reported regulatory impact is not mandatory status.",
+        "Owner identification is not approval.",
+        "Requested change is not a validated causal mechanism.",
+        "Absent capacity and economics are not estimated."
+      ]
+    },
+    "evidence": {
+      "verdict": "VERIFIED",
+      "receipt": {
+        "receipt_version": "jl.receipt.v1",
+        "engine": "CAIRN",
+        "operation": "evidence-packet",
+        "input_hash": "sha256:18928cbcc48192f5061111e7323f32c2d278918f1e547b5898585d186d75a93d",
+        "output_hash": "sha256:b97adf17ed1348f9636296bf2038d37e01bff6d7a42033fa5a2102663699a33e",
+        "verdict": "VERIFIED",
+        "reasons": [],
+        "evidence_hashes": [
+          "sha256:090b9c5d64001b3adb2e8ef4601cfa93d69e7d0005df073720511801253c62dc",
+          "sha256:252f7e7660abab9584b023112648321e63a3686a72b0df9630bccadd159b45f7",
+          "sha256:284e9d91952819e2bee9bd3b7933071369ef816f7bdaf288a2b41696d8e2b132",
+          "sha256:29825375bcd090c184d5404143b398f160f7b702386bd9319acaddeba6a30848",
+          "sha256:29dbc5b6c1a2d4bb5f4472aa7c76fa631cef7cf3cbad34f38091b8c1a4c3a2a5",
+          "sha256:2f36e393f434ed506757fecc7ccc0084541d8a484cbcc7433ccd90643441837a",
+          "sha256:2f8a0498164019f7a51cc7f8d04ea826e3f8a613a25e9a8dc4f0c24cc57d9c56",
+          "sha256:37d6e600409e166886dea597aa938d7d3d764f320dd16a6a9cc080c996240c08",
+          "sha256:3c2385edbd72b95bce7f1e8ec5be6c56f28fe94cb969e06eaab6114d8f1c1a13",
+          "sha256:84bcc94e9e7aa2ca8e3e89d94450234f81baf92bd0482aeb28c66eebedb3b0cd",
+          "sha256:863feefb5a69bc28c1a4e3dfea65db564f566104d8e050635c19e5664a2a13a5",
+          "sha256:8fe7aa8d22dc7d54dc1afd571f40caabe17436e4be7c8cb718dc3dd7cef43c68",
+          "sha256:9f15c85c413af88c43e70d8a013429376e4c6825a05863af7d16a9070c3a1304",
+          "sha256:a0743b96c673abb4489c9f2e6077b277bdb0f555e17834fda3d524bd2e2a2925",
+          "sha256:ab7c2a3f7e2a911846c52f8413dfe05bb592f227e69bc7ddfcb11d7fd1beac6c",
+          "sha256:d518b675347f80d27d96a9fd71af585dc092e6c261f8dc57bd68e2098465c7c6",
+          "sha256:e3241fa30452376d1ba7c69223591fc5fcd4a9bc4d8ba8fedbd3edef55f6935a",
+          "sha256:f67a3d64900febd8052a7c8e78f68cbcef1f17bb217f6a6540c94465d1f06732"
+        ],
+        "authority_hash": null,
+        "previous_receipt_hash": null,
+        "metadata": {},
+        "receipt_hash": "sha256:15bb5dcecdd5bf94e35ff8eb94d93c0bee36f8faba6caf8db37a3647d39504c3"
+      }
+    },
+    "receipt": {
+      "receipt_version": "jl.receipt.v1",
+      "engine": "INTAKE_MEANING_CORE",
+      "operation": "interpret-source-assertions",
+      "input_hash": "sha256:906b3e54180c48b3d7a1d6c386fcc3be1eea2efeb3e4fb1fdd4ae560a15a3652",
+      "output_hash": "sha256:597eb0459d733350832676847ed2fae17496ef6d78d44d4b4d88cecb106e3929",
+      "verdict": "VERIFIED_MAPPING",
+      "reasons": [],
+      "evidence_hashes": [
+        "sha256:309a0857af0352a2cbb47b633b392d6ba5b41de8061bd3c139476e04cd840cc1",
+        "sha256:3b2e8c0f3f406523a004342285314fbc36cb9b956d5cf5a82e2e0f7b0144cb88",
+        "sha256:49c9483a9dadf104a45417e7173c06d952be829e46a38dc08c357172c02cf3ed",
+        "sha256:784da60e930b57a64c2539cf7722ffcee389e900a9e5679eb28503fc932f3ce2",
+        "sha256:8e3796974fcd9ff654792fcd363b8191f0d26e006957ce57a49c403c88d61fa0",
+        "sha256:994a80d54ba70b7073ef4d20adf4ea3c42eba5ea5069ed6a73db7c89f4560cb7",
+        "sha256:9b118501d7c1e0af5ccfbe6b6752d6783961c69f8f943bdba52928e5989cfbf9",
+        "sha256:b0b0afd501f101414f8969a83d0f3a192c84d01406998c41d6dee06ea2ff3f5a",
+        "sha256:d909263b17bd6e43ee824c4044d6fc4ef407bfb8919c88ddaa528f9ccca6905e",
+        "sha256:df866364c909a8a5f7a8fd470895528973002580c3d7a4b1650e890c48c10a29"
+      ],
+      "authority_hash": null,
+      "previous_receipt_hash": null,
+      "metadata": {
+        "implementationHash": "sha256:bb0928caee84d1769672ac6477215fe579260068d8ac87c332e13beb2e39fc16",
+        "product": "intake-meaning-core",
+        "runtime": "v24.19.0/linux/x64"
+      },
+      "receipt_hash": "sha256:574b2a4e9880d65f896d11a60d2021d59195528ee6537648c36f1ca948b0fa6f"
+    }
+  },
+  "gauntletContext": {
+    "assessment": {
+      "coverage": {
+        "applicationRef": {
+          "ABSENT": 0,
+          "BLANK": 0,
+          "INVALID": 0,
+          "NOT_FETCHED": 2,
+          "OBSERVED": 1,
+          "UNMAPPED": 0,
+          "denominator": 3
+        },
+        "owner": {
+          "ABSENT": 0,
+          "BLANK": 1,
+          "INVALID": 0,
+          "NOT_FETCHED": 1,
+          "OBSERVED": 1,
+          "UNMAPPED": 0,
+          "denominator": 3
+        },
+        "regulatoryImpactReported": {
+          "ABSENT": 0,
+          "BLANK": 0,
+          "INVALID": 0,
+          "NOT_FETCHED": 1,
+          "OBSERVED": 1,
+          "UNMAPPED": 1,
+          "denominator": 3
+        },
+        "requestedChange": {
+          "ABSENT": 1,
+          "BLANK": 1,
+          "INVALID": 0,
+          "NOT_FETCHED": 0,
+          "OBSERVED": 1,
+          "UNMAPPED": 0,
+          "denominator": 3
+        },
+        "requestedDueAt": {
+          "ABSENT": 0,
+          "BLANK": 1,
+          "INVALID": 1,
+          "NOT_FETCHED": 0,
+          "OBSERVED": 1,
+          "UNMAPPED": 0,
+          "denominator": 3
+        },
+        "sizeBand": {
+          "ABSENT": 0,
+          "BLANK": 0,
+          "INVALID": 0,
+          "NOT_FETCHED": 1,
+          "OBSERVED": 2,
+          "UNMAPPED": 0,
+          "denominator": 3
+        }
+      },
+      "limitations": [
+        "Reported regulatory impact is not mandatory status.",
+        "Owner identification is not approval.",
+        "Requested change is not a validated causal mechanism.",
+        "Absent capacity and economics are not estimated."
+      ],
+      "overdueRequestedIds": [
+        "SYN-1"
+      ],
+      "questions": [
+        {
+          "action": "FETCH_DETAIL",
+          "field": "owner",
+          "recordId": "SYN-2",
+          "status": "NOT_FETCHED"
+        },
+        {
+          "action": "RESOLVE_SOURCE_VALUE",
+          "field": "requestedChange",
+          "recordId": "SYN-2",
+          "status": "BLANK"
+        },
+        {
+          "action": "FETCH_DETAIL",
+          "field": "regulatoryImpactReported",
+          "recordId": "SYN-2",
+          "status": "NOT_FETCHED"
+        },
+        {
+          "action": "RESOLVE_SOURCE_VALUE",
+          "field": "requestedDueAt",
+          "recordId": "SYN-2",
+          "status": "BLANK"
+        },
+        {
+          "action": "FETCH_DETAIL",
+          "field": "applicationRef",
+          "recordId": "SYN-2",
+          "status": "NOT_FETCHED"
+        },
+        {
+          "action": "RESOLVE_SOURCE_VALUE",
+          "field": "owner",
+          "recordId": "SYN-3",
+          "status": "BLANK"
+        },
+        {
+          "action": "RESOLVE_SOURCE_VALUE",
+          "field": "requestedChange",
+          "recordId": "SYN-3",
+          "status": "ABSENT"
+        },
+        {
+          "action": "REVIEW_MAPPING",
+          "field": "regulatoryImpactReported",
+          "recordId": "SYN-3",
+          "status": "UNMAPPED"
+        },
+        {
+          "action": "RESOLVE_SOURCE_VALUE",
+          "field": "requestedDueAt",
+          "recordId": "SYN-3",
+          "status": "INVALID"
+        },
+        {
+          "action": "FETCH_DETAIL",
+          "field": "applicationRef",
+          "recordId": "SYN-3",
+          "status": "NOT_FETCHED"
+        },
+        {
+          "action": "FETCH_DETAIL",
+          "field": "sizeBand",
+          "recordId": "SYN-3",
+          "status": "NOT_FETCHED"
+        }
+      ],
+      "scope": "SOURCE_OBSERVATIONS_ONLY"
+    },
+    "authorization": "NOT_ASSESSED",
+    "businessDecision": null,
+    "capacity": "NOT_ASSESSED",
+    "observations": [
+      {
+        "fields": {
+          "applicationRef": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "application",
+              "id": "sha256:358c2eb12bf2a59d35cfa8fe23367fdfff17f2f7bc53bc847e90451028a18f37",
+              "mappingReceiptHash": "sha256:7369761b1abb394379df319edc4beaa05593ba73ba506f6e33e5d8ac35bfbd7f",
+              "projected": true,
+              "rawValue": "APP-DEMO",
+              "recordId": "SYN-1",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "OBSERVED",
+            "value": "APP-DEMO"
+          },
+          "owner": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "productOwner",
+              "id": "sha256:026e0ee999760c1fb5d1e5d4fc491f21f0edcad916d9ea278a315a25e161a3b9",
+              "mappingReceiptHash": "sha256:c41777797fbe2ecc3cdbcf1c1531bd5c7306a6690dd2ca7756c204128d966d50",
+              "projected": true,
+              "rawValue": "Demo owner",
+              "recordId": "SYN-1",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "OBSERVED",
+            "value": "Demo owner"
+          },
+          "regulatoryImpactReported": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "regulatory",
+              "id": "sha256:cfaea203fc7006b3caea3e2fc71ef2ad017442916bcc00ce89c7ddd120845a2b",
+              "mappingReceiptHash": "sha256:034d395d8f0ac94f55004c77a0b745321b92831fc465f60f05774842c18f3355",
+              "projected": true,
+              "rawValue": "Yes",
+              "recordId": "SYN-1",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "OBSERVED",
+            "value": true
+          },
+          "requestedChange": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "want",
+              "id": "sha256:20db75ae6d66439a676e05e4cacb6864adcb55e19097f68e9f00843b5ccc31e9",
+              "mappingReceiptHash": "sha256:814a5d388cc8c35b1ac64e3fcf55c622728a9b2fca2981bfe23f0c0672e1db0c",
+              "projected": true,
+              "rawValue": "Reduce repeat data entry",
+              "recordId": "SYN-1",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "OBSERVED",
+            "value": "Reduce repeat data entry"
+          },
+          "requestedDueAt": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "due",
+              "id": "sha256:18699492df5fba07cba4dce54c88ab76450060aefcab8b15c60d97adca1b12e8",
+              "mappingReceiptHash": "sha256:be48e6cdc6c39c584c68130900e3433a55e307fe8a1fc281d204d557174f949e",
+              "projected": true,
+              "rawValue": "2026-09-10T00:00:00.000Z",
+              "recordId": "SYN-1",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "OBSERVED",
+            "value": "2026-09-10T00:00:00.000Z"
+          },
+          "sizeBand": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "sizing",
+              "id": "sha256:cd8792031eafbb45819025f23ba63b62937c989ba167e48c01d021379f38fa0a",
+              "mappingReceiptHash": "sha256:1c37a0fd56dbe4bcd83130a16de61ca42a7191db78dac641b490039fddf8993a",
+              "projected": true,
+              "rawValue": "Small",
+              "recordId": "SYN-1",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "OBSERVED",
+            "value": "S"
+          }
+        },
+        "id": "SYN-1",
+        "priority": 7
+      },
+      {
+        "fields": {
+          "applicationRef": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "application",
+              "id": "sha256:f580c7cfb5177f1a49fe4c6918c86e7e8a84d38ac87c77ba3640a8cad3ee5def",
+              "mappingReceiptHash": null,
+              "projected": false,
+              "rawValue": null,
+              "recordId": "SYN-2",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "NOT_FETCHED",
+            "value": null
+          },
+          "owner": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "productOwner",
+              "id": "sha256:0e499a251980455ed6f69204b33710c28695c211d413ffc3e61afe1cc780ff72",
+              "mappingReceiptHash": null,
+              "projected": false,
+              "rawValue": null,
+              "recordId": "SYN-2",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "NOT_FETCHED",
+            "value": null
+          },
+          "regulatoryImpactReported": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "regulatory",
+              "id": "sha256:371f178d3abab64182d0ea894c7d0aeb4151b0b9c6fbf78613744a41978e8259",
+              "mappingReceiptHash": null,
+              "projected": false,
+              "rawValue": null,
+              "recordId": "SYN-2",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "NOT_FETCHED",
+            "value": null
+          },
+          "requestedChange": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "want",
+              "id": "sha256:b20a7819de19f886713b5c992d80241ea53086bf685a5b64046ee6272fd507b1",
+              "mappingReceiptHash": null,
+              "projected": true,
+              "rawValue": "",
+              "recordId": "SYN-2",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "BLANK",
+            "value": null
+          },
+          "requestedDueAt": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "due",
+              "id": "sha256:3759f0201866ea807e44c66f4491c05d782a6a4b3e99eb0d7e4a4800f48f9d31",
+              "mappingReceiptHash": null,
+              "projected": true,
+              "rawValue": null,
+              "recordId": "SYN-2",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "BLANK",
+            "value": null
+          },
+          "sizeBand": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "sizing",
+              "id": "sha256:1882195ecaabc6175c74638374a9c3f464d5cd58910af6cada6d4a312beadeab",
+              "mappingReceiptHash": "sha256:3f942bb9b3024ddd7a68de333018cfe6b30d3d6ceb3979367b9d226640b458cb",
+              "projected": true,
+              "rawValue": "Medium",
+              "recordId": "SYN-2",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "OBSERVED",
+            "value": "M"
+          }
+        },
+        "id": "SYN-2",
+        "priority": 2
+      },
+      {
+        "fields": {
+          "applicationRef": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "application",
+              "id": "sha256:c4857bcd9b3fba6db60c5279afe79b7a7ed95727c07854857b2a6ef04f70c41b",
+              "mappingReceiptHash": null,
+              "projected": false,
+              "rawValue": null,
+              "recordId": "SYN-3",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "NOT_FETCHED",
+            "value": null
+          },
+          "owner": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "productOwner",
+              "id": "sha256:0a13a81ad6234cc6e064bcf11772382bd1b5f991e07ce08b41f790bb9daf5515",
+              "mappingReceiptHash": null,
+              "projected": true,
+              "rawValue": "",
+              "recordId": "SYN-3",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "BLANK",
+            "value": null
+          },
+          "regulatoryImpactReported": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "regulatory",
+              "id": "sha256:cd37b2c73c60760db920734ada615c21f3b5ccd03f1a90d6debd5052dd147dd8",
+              "mappingReceiptHash": null,
+              "projected": true,
+              "rawValue": "Maybe",
+              "recordId": "SYN-3",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "UNMAPPED",
+            "value": null
+          },
+          "requestedChange": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "want",
+              "id": "sha256:df8d236edcaaddd6d23c801d5cbb8f347f3bd34168fd4e07b56ffeae9823f7da",
+              "mappingReceiptHash": null,
+              "projected": true,
+              "rawValue": null,
+              "recordId": "SYN-3",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "ABSENT",
+            "value": null
+          },
+          "requestedDueAt": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "due",
+              "id": "sha256:2ef5eec3eaff82ecbdc84358a07235150a39e329f453ea0c3f40a924b9ac35b2",
+              "mappingReceiptHash": "sha256:9aab48f027900139783028b919bc9c115053d0a21c45cbaa2a61d1b84cb5f791",
+              "projected": true,
+              "rawValue": "yesterday",
+              "recordId": "SYN-3",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "INVALID",
+            "value": null
+          },
+          "sizeBand": {
+            "admission": "CONTROLLED_MAPPING",
+            "claimClass": "SOURCE_ASSERTION",
+            "source": {
+              "field": "sizing",
+              "id": "sha256:902a4b83013767eb64573bd8d4b87ff099a382483ed11220b8a8bdc1b2db679b",
+              "mappingReceiptHash": null,
+              "projected": false,
+              "rawValue": null,
+              "recordId": "SYN-3",
+              "sourceHash": "sha256:c7d05f73e3766570d278257c64a08ee395c5b8c15db5142ea91f54358b7d7c04"
+            },
+            "status": "NOT_FETCHED",
+            "value": null
+          }
+        },
+        "id": "SYN-3",
+        "priority": 11
+      }
+    ],
+    "schema": "gauntlet-semantic-context/v1",
+    "sourceReceiptHash": "sha256:574b2a4e9880d65f896d11a60d2021d59195528ee6537648c36f1ca948b0fa6f"
+  }
+}

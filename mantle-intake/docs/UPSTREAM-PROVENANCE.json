@@ -1,0 +1,65 @@
+{
+  "commit": "34684bcb527d0cfc83911c7b62d37ac1b3abfb3a",
+  "files": [
+    {
+      "path": "upstream/kernel/canonical.mjs",
+      "origin": "src/kernel/canonical.mjs",
+      "sha256": "429d1aad6f24b381d223584ce09b7c9923b879a2e6997bc4595bede69b667e12",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "upstream/kernel/evidence.mjs",
+      "origin": "src/kernel/evidence.mjs",
+      "sha256": "66964e1544ce6704f4ef238c903fbb949444b2d58628feab6900588ffc75660c",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "upstream/kernel/frozen.mjs",
+      "origin": "src/kernel/frozen.mjs",
+      "sha256": "36a1eb5dcc65bfaa0f913e445f824d6c3c51a16f9df4c79deae19826e20c4bbd",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "upstream/kernel/gate.mjs",
+      "origin": "src/kernel/gate.mjs",
+      "sha256": "9f4f7813dc1c62c39c78b7bf16dfe9fabe6bba5619036e59f9ab6d9f4778e56c",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "upstream/kernel/receipt.mjs",
+      "origin": "src/kernel/receipt.mjs",
+      "sha256": "84b6d6306b13f15e5318785fb207eb2be1351bc0b61e2c7573621ce4177c6328",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "upstream/kernel/temporal.mjs",
+      "origin": "src/kernel/temporal.mjs",
+      "sha256": "d104a11e281e6915821059a3aeee0c00c095c66f1312089620db770498135865",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "upstream/semantic/authority.mjs",
+      "origin": "src/semantic/authority.mjs",
+      "sha256": "7280cb137b96fdbc27845fcf5e087061cbbb032bf5f252bbc0f2173935c462f6",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "upstream/semantic/cairn.mjs",
+      "origin": "src/semantic/cairn.mjs",
+      "sha256": "46c63e572e4cda1145f5594180983e2bfb2b7d10f22b8e25aae0638e65d7cbda",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "upstream/semantic/dialectic.mjs",
+      "origin": "src/semantic/dialectic.mjs",
+      "sha256": "5451535f50cccdfe390fead42ca3d718d90108e8009c1c9a47ac7511562557eb",
+      "matchesSourceCommit": true
+    },
+    {
+      "path": "upstream/semantic/palimpsest.mjs",
+      "origin": "src/semantic/palimpsest.mjs",
+      "sha256": "c18638a78e579a7d832dbe32c9378764b7f991e934b3a444f0013408e6b4b082",
+      "matchesSourceCommit": true
+    }
+  ]
+}

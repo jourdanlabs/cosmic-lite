@@ -1,0 +1,37 @@
+✔ discovery works without invented approvals; cannot emit GAUNTLET controlled context (19.066843ms)
+✔ signed complete mapping emits typed context without business authorization (12.117067ms)
+✔ bulk omission, fetched blank, absent key and unmapped answer remain distinct (3.180249ms)
+✔ unmapped regulatory response never silently becomes false (4.678356ms)
+✔ requested dates retain overdue values and priority is unchanged (3.205487ms)
+✔ coverage counts have explicit denominator and exhaust mutually exclusive statuses (3.159527ms)
+✔ ordinal stays ordinal, requested change never becomes mechanism (1.938459ms)
+✔ no version at requested time short-circuits (0.67072ms)
+✔ future knowledge definition cannot be used retrospectively (1.050001ms)
+✔ overlapping meanings short-circuit instead of choosing first (7.738463ms)
+✔ treaty expiry is exclusive and semantic drift refuses (2.432003ms)
+✔ controlled mode requires all three approval classes (2.133143ms)
+✔ changed source bytes cannot retain source approval (3.151831ms)
+✔ changed mapping cannot retain treaty approval (1.551156ms)
+✔ changing meaning dates invalidates full-object signature (1.275401ms)
+✔ revoked or wrong-purpose signer is not trusted (1.938189ms)
+✔ replay rejects edited output even with an untouched receipt (7.197309ms)
+✔ same complete inputs replay deterministically without mutation (5.831842ms)
+✔ missing field never becomes false or zero through boolean/scale transforms (0.286221ms)
+✔ duplicate ids, unknown fields, source type mismatch and malformed dates fail explicitly (1.865389ms)
+✔ source snapshot not yet known refuses (0.144207ms)
+✔ receipt binds otherwise unused raw fields as well as mapping rules (4.072423ms)
+✔ conflicting outputs on different intakes are not global contradictions (3.103063ms)
+✔ empty population is explicit zero denominator, never a percentage (0.829219ms)
+✔ every target field must be mapped exactly once (0.662818ms)
+✔ canonicalization is key-order independent and rejects undefined (0.977442ms)
+✔ receipt chain detects tampering and reordering (0.877962ms)
+✔ frozen output reveals only the committed payload (0.266151ms)
+✔ bitemporal selection uses valid time and knowledge time (0.260001ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 199.533427

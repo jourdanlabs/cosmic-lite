@@ -1,0 +1,100 @@
+{
+  "schema": "intake-meaning-contract/v1",
+  "mode": "DISCOVERY",
+  "meaningId": "intake-source-assertions",
+  "meanings": [
+    {
+      "object_id": "intake-source-assertions",
+      "version": "1",
+      "valid_from": "2026-01-01T00:00:00.000Z",
+      "valid_to": null,
+      "known_from": "2026-01-01T00:00:00.000Z",
+      "known_to": null,
+      "definition": {
+        "claimClass": "SOURCE_ASSERTION",
+        "fields": {
+          "owner": "string",
+          "requestedChange": "string",
+          "regulatoryImpactReported": "boolean",
+          "requestedDueAt": "date",
+          "applicationRef": "string",
+          "sizeBand": "ordinal"
+        }
+      }
+    }
+  ],
+  "treaty": {
+    "id": "synthetic-intake-map-1",
+    "valid_from": "2026-01-01T00:00:00.000Z",
+    "valid_to": null,
+    "known_from": "2026-01-01T00:00:00.000Z",
+    "known_to": null,
+    "source_semantic_hash": "sha256:78659075ea306f9d9f5ab8874a973eb68783bbad7e923ff7d91e0d152cd6a1a6",
+    "target_semantic_hash": "sha256:7b94007843532e247f2addd1ab3d922b35e95f7e4ce0754042e30ccac27a6795",
+    "clauses": [
+      {
+        "source_field": "productOwner",
+        "target_field": "owner",
+        "relation": "IDENTICAL",
+        "transform": {
+          "kind": "identity"
+        }
+      },
+      {
+        "source_field": "want",
+        "target_field": "requestedChange",
+        "relation": "IDENTICAL",
+        "transform": {
+          "kind": "identity"
+        }
+      },
+      {
+        "source_field": "regulatory",
+        "target_field": "regulatoryImpactReported",
+        "relation": "TRANSFORMABLE",
+        "transform": {
+          "kind": "enum_map",
+          "map": {
+            "Yes": true,
+            "No": false
+          }
+        }
+      },
+      {
+        "source_field": "due",
+        "target_field": "requestedDueAt",
+        "relation": "IDENTICAL",
+        "transform": {
+          "kind": "identity"
+        }
+      },
+      {
+        "source_field": "application",
+        "target_field": "applicationRef",
+        "relation": "IDENTICAL",
+        "transform": {
+          "kind": "identity"
+        }
+      },
+      {
+        "source_field": "sizing",
+        "target_field": "sizeBand",
+        "relation": "TRANSFORMABLE",
+        "transform": {
+          "kind": "enum_map",
+          "map": {
+            "Small": "S",
+            "Medium": "M",
+            "Large": "L",
+            "ExtraLarge": "XL"
+          }
+        }
+      }
+    ]
+  },
+  "approvals": {
+    "meanings": {},
+    "treaty": null,
+    "source": null
+  }
+}
